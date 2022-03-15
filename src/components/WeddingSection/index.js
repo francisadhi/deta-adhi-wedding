@@ -41,7 +41,7 @@ function WeddingSection({ isInvitation }) {
                 />
                 <WeddingInfoBox
                   title="Resepsi Pernikahan"
-                  time="Akan dilaksanakan pada pukul 10.00 WIB "
+                  time="Akan dilaksanakan pada pukul 14.00 WIB "
                   date="Sabtu, 02 Juli 2022"
                   description="Balkondes Duta Menoreh <br/>Desa Tanjungsari, Borobudur"
                 />
