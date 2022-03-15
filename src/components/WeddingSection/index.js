@@ -29,7 +29,7 @@ function WeddingSection({ isInvitation }) {
               <span className="sub-title sub-title__wedding">Akan diselenggarakan pada:</span>
             </div>
           </div>
-          <div className="row">
+          <div className="row animated animatedFadeInUp fadeInUp">
             {!isInvitation && renderGuestInfo()}
             {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
