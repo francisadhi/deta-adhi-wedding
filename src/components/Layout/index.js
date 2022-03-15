@@ -8,7 +8,7 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Deta & Adhi`;
+const META_DESCRIPTION = `Dengan memohon penuh rasa syukur, teriring niat untuk membentuk keluarga kecil katolik, kami mohon do'a agar senantiasa diberikan kelancaran. - Deta & Adhi`;
 
 function MainLayout({ children }) {
   return (
