@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/bg-welcome.jpg';
+import Background from '@assets/images/adhi-deta1.jpg';
 
 export const styHero = css`
   width: 100%;
@@ -230,7 +230,7 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: #f6c578cc;
   margin: 8px;
   border-radius: 50%;
   position: relative;

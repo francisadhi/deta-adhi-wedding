@@ -19,7 +19,6 @@ function FooterSection({ isInvitation }) {
                 <p className="info">
                   Atas segala do'a dan restu saudara/i,
                   <br /> kami ucapkan terima kasih. <br />
-                  Wassalamualaikum warahmatullahi wabarakatuh.
                 </p>
               </div>
             </div>
@@ -31,7 +30,7 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2020 Dinda & Indra Wedding. All Rights Reserved.</small>
+                <small className="block">&copy; 2020 Deta & Adhi Wedding. All Rights Reserved.</small>
                 <small className="block">
                   Covid-19 Icon by{' '}
                   <a href="https://www.flaticon.com/packs/covid-protection-measures-5" target="_blank" rel="noreferrer">
@@ -40,8 +39,8 @@ function FooterSection({ isInvitation }) {
                 </small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
+                  <a href="https://www.youtube.com/watch?v=snNX1Rhj-0I" target="_blank" rel="noreferrer">
+                  Maria Magdalena - Karena Aku Kau Cinta
                   </a>
                 </small>
                 <small className="block">

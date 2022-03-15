@@ -248,6 +248,7 @@ figure {
 .fh5co-bg {
   background-position: center center;
   width: 100%;
+  height: 500px;
   float: left;
   position: relative;
 }
@@ -1092,7 +1093,7 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: #f14e95;
+  color: #f6c578cc;
   font-size: 30px;
 }
 .couple-half .groom,
@@ -1213,7 +1214,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 500;
-  color: #f14e95;
+  color: #f6c578cc;
   font-family: 'Sacramento', Arial, serif;
 }
 @media screen and (max-width: 768px) {

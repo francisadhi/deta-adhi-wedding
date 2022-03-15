@@ -24,9 +24,9 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <span className="bismillah">Mohon Doa Restu</span>
+              <h2 className="main-font main-font__wedding">Sakramen dan Resepsi Pernikahan</h2>
+              <span className="sub-title sub-title__wedding">Akan diselenggarakan pada:</span>
             </div>
           </div>
           <div className="row">
@@ -34,19 +34,28 @@ function WeddingSection({ isInvitation }) {
             {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
-                  title="Akad Nikah"
-                  time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  title="Sakramen Pernikahan"
+                  time="Akan dilaksanakan pada pukul 10.00 WIB "
+                  date="Sabtu, 02 Juli 2022"
+                  description="Gereja Santo Yusuf Pekerja <br/>Mertoyudan, Magelang"
                 />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
-                  time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  title="Resepsi Pernikahan"
+                  time="Akan dilaksanakan pada pukul 10.00 WIB "
+                  date="Sabtu, 02 Juli 2022"
+                  description="Balkondes Duta Menoreh <br/>Desa Tanjungsari, Borobudur"
                 />
               </div>
             )}
+          </div>
+          <br />
+          <br />
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <p className="sub-title sub-title__wedding">Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
+berkenan hadir untuk memberikan doa restu kepada kami
+Atas kehadiran dan doa restunya kami ucapkan terima kasih</p>
+            </div>
           </div>
         </div>
       </div>
