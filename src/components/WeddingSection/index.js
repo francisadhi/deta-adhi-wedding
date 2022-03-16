@@ -20,7 +20,7 @@ function WeddingSection({ isInvitation }) {
   return (
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
-        <div className="overlay" />
+        <div className="overlay section--bg-fixed" />
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">

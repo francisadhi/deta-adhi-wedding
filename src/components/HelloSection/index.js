@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-adhi.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? 'Sabtu, 02 Juli 2022, Balkondes Tanjungsari, Borobudur' : 'Sabtu, 02 Juli 2022';
+  const finalSubtitle = isInvitation ? 'Sabtu, 02 Juli 2022, Gereja Santo Yusuf Pekerja Mertoyudan' : 'Sabtu, 02 Juli 2022';
 
   return (
     <Fragment>
@@ -17,11 +17,6 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Salam Sejahtera</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
-              <p className="info">
-              Tuhan membuat segala sesuatu indah pada waktunya.
-Indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih,
-dan indah saat Dia mempersatukan kami dalam suatu ikatan pernikahan Kudus
-              </p>
             </div>
           </div>
           <div className="couple-wrap">
@@ -52,6 +47,15 @@ dan indah saat Dia mempersatukan kami dalam suatu ikatan pernikahan Kudus
                   Putra Bapak (Alm) Yohanes Mudiyanto <br />& Ibu Asiyah Maria Immaculata
                 </p>
               </div>
+            </div>
+          </div>          
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <p className="info">
+              Tuhan membuat segala sesuatu indah pada waktunya.
+Indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih,
+dan indah saat Dia mempersatukan kami dalam suatu ikatan pernikahan Kudus
+              </p>
             </div>
           </div>
         </div>

@@ -39,6 +39,13 @@ export const styWrapper = css`
       margin-bottom: 8px;
     }
   }
+  
+  .section--bg-fixed {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-color: #f0f8ff;
+    opacity: .9;
+  }
 `;
 
 export const styButtonWrapper = css`
@@ -69,4 +76,6 @@ export const styButtonWrapper = css`
     margin-right: 8px;
     margin-bottom: 0;
   }
+
+}
 `;
