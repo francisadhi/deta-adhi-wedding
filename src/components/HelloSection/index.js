@@ -14,7 +14,7 @@ function HelloSection({ isInvitation }) {
       <div id="fh5co-couple" css={styWrapper}>
         <div className="container">
           <div className="row">
-            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading fadeInUp animated-fast">
               <h2 className="main-font">Salam Sejahtera</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
             </div>
