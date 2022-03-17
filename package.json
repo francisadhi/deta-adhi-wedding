@@ -44,6 +44,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "engines": {
-    "node": "16.14.0"
+    "node": "16.14.1"
   }
 }
