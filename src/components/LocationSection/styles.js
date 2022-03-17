@@ -11,4 +11,16 @@ export const styWrapper = css`
       font-size: 16px;
     }
   }
+
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+
+  .animated-fast {
+      -webkit-animation-duration: .5s;
+      animation-duration: .5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+  }
 `;

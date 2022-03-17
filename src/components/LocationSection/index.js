@@ -8,7 +8,7 @@ function LocationSection() {
       <div id="fh5co-couple-story" className="fh5co-section-gray" css={styWrapper}>
         <div className="container">
           <div className="row">
-            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
               <h2 className="main-font">Lokasi Acara</h2>
               <p className="sub-title">
                 <a
