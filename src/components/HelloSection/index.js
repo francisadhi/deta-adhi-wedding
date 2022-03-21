@@ -20,11 +20,13 @@ function HelloSection({ isInvitation }) {
               <AnimationOnScroll animateIn="animate__bounceIn">
                 <h2 className="main-font">Salam Sejahtera</h2>
               </AnimationOnScroll>
-              <h3 className="sub-title hs">{finalSubtitle}</h3>
+              <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
+                <h3 className="sub-title hs">{finalSubtitle}</h3>
+              </AnimationOnScroll>
             </div>
           </div>
           <div className="couple-wrap">
-            <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+            <AnimationOnScroll animateIn="animate__bounceInLeft">
               <div className="couple-half">
                 <div className="groom">
                   <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
@@ -43,7 +45,7 @@ function HelloSection({ isInvitation }) {
             <div className="and-love">
               <i>&</i>
             </div>
-            <AnimationOnScroll animateIn="animate__fadeInRightBig">
+            <AnimationOnScroll animateIn="animate__bounceInRight">
               <div className="couple-half">
                 <div className="bride">
                   <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
@@ -59,7 +61,7 @@ function HelloSection({ isInvitation }) {
           </div>
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <AnimationOnScroll animateIn="animate__fadeInUpBig">
+              <AnimationOnScroll animateIn="animate__fadeInUp">
                 <p className="info">
                   Tuhan membuat segala sesuatu indah pada waktunya.
                   Indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih,
