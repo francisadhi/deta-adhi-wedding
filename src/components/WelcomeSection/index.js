@@ -6,6 +6,7 @@ import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import "animate.css/animate.min.css";
 
 const DELAY_TIME = 1500;
 
