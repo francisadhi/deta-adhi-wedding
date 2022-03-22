@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { GOOGLE_MAPS_LINK } from '@/constants';
 import { styWrapper } from './styles';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function LocationSection() {
   return (
@@ -9,7 +10,9 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-              <h2 className="main-font">Lokasi Acara</h2>
+              <AnimationOnScroll initiallyVisible={true} animateIn="animate__flip">
+                <h2 className="main-font">Lokasi Acara</h2>
+              </AnimationOnScroll>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
@@ -23,7 +26,7 @@ function LocationSection() {
                 <br />
                 <br />
                 Jl. Giri Tengah No.KM. 105, Dusun V, Tanjungsari, Kec. Borobudur, <br />
-                Kabupaten Magelang, Jawa Tengah 56553 
+                Kabupaten Magelang, Jawa Tengah 56553
               </p>
             </div>
           </div>
