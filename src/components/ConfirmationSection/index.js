@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 
 import { styWrapper, styFlex } from './styles';
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 function ConfirmationSection({ isInvitation, guestName, codeLink }) {
   if (!isInvitation) return null;
 
@@ -13,19 +15,23 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
+            <AnimationOnScroll initiallyVisible={true} duration={5} animateIn="animate__swing">
+              <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
+            </AnimationOnScroll>
             <p>
               Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih.
             </p>
           </div>
         </div>
-        <div className="row" css={styFlex}>
-          <div className="col-md-3">
-            <Link to={`e-ticket?${codeLink}`}>
-              <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-            </Link>
+        <AnimationOnScroll animateIn="animate__bounceIn">
+          <div className="row" css={styFlex}>
+            <div className="col-md-3">
+              <Link to={`e-ticket?${codeLink}`}>
+                <button className="btn btn-default btn-block">Lihat e-Ticket</button>
+              </Link>
+            </div>
           </div>
-        </div>
+        </AnimationOnScroll>
       </div>
     </div>
   );
