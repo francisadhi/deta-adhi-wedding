@@ -5,6 +5,7 @@ import Bride from '@assets/images/p-deta.jpg';
 import Groom from '@assets/images/p-adhi.jpg';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Fade from 'react-reveal//Fade';
 
 import { styWrapper } from './styles';
 
@@ -26,7 +27,7 @@ function HelloSection({ isInvitation }) {
             </div>
           </div>
           <div className="couple-wrap">
-            <AnimationOnScroll animateIn="animate__bounceInLeft">
+            <Fade left>
               <div className="couple-half">
                 <div className="groom">
                   <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
@@ -38,14 +39,14 @@ function HelloSection({ isInvitation }) {
                   </p>
                 </div>
               </div>
-            </AnimationOnScroll>
+            </Fade>
             <p className="heart text-center">
               <i className="icon-heart2"></i>
             </p>
             <div className="and-love">
               <i>&</i>
             </div>
-            <AnimationOnScroll animateIn="animate__bounceInRight">
+            <Fade right>
               <div className="couple-half">
                 <div className="bride">
                   <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
@@ -57,8 +58,9 @@ function HelloSection({ isInvitation }) {
                   </p>
                 </div>
               </div>
-            </AnimationOnScroll>
+            </Fade>
           </div>
+          <br />
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <AnimationOnScroll animateIn="animate__fadeInUp">
