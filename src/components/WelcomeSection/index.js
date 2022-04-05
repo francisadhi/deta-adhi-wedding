@@ -1,16 +1,16 @@
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import { styWrapper, styHero, styBackground } from './styles';
 import "animate.css/animate.min.css";
 
 const DELAY_TIME = 1500;
 
-function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
+function WelcomeSection({ guestName, isAnonymGuest, codeLink, onClickDetail }) {
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -50,8 +50,9 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
     return (
       <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
-        <h2 className="to-dearest-name">{guestName}</h2>
+        <h2 className="to-dearest-name">Dear Friends,</h2>
+        {/* <h3 className="to-dearest">To our Dearest</h3> */}
+        {/* <h2 className="to-dearest-name">{guestName}</h2> */}
       </Fragment>
     );
   };
@@ -76,7 +77,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                 <CountContainer />
               </div>
               {renderGuestSection()}
-              {isInvitation && (
+              {/* {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
                     <Link to={`/e-ticket?${codeLink}`}>
@@ -84,7 +85,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                     </Link>
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
           <div className="row">
