@@ -10,7 +10,7 @@ import Fade from 'react-reveal//Fade';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? 'Sabtu, 02 Juli 2022, Gereja Santo Yusuf Pekerja Mertoyudan' : 'Sabtu, 02 Juli 2022';
+  const finalSubtitle = isInvitation ? 'Sabtu, 02 Juli 2022, Gereja Bunda Maria Penolong Abadi. Deyangan, Mertoyudan' : 'Sabtu, 02 Juli 2022';
 
   return (
     <Fragment>
