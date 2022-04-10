@@ -11,7 +11,7 @@ function WeddingSection({ isInvitation }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di Instagram)" date="Sabtu, 03 Oktober 2020" />
+          <WeddingInfoBox title="Sakramen Pernikahan" time="10.00 WIB (Live di Instagram)" date="Sabtu, 02 Juli 2022" />
         </div>
         <ButtonLive />
       </Fragment>
@@ -41,7 +41,7 @@ function WeddingSection({ isInvitation }) {
                     title="Sakramen Pernikahan"
                     time="Akan dilaksanakan pada pukul 10.00 WIB "
                     date="Sabtu, 02 Juli 2022"
-                    description="Gereja Santo Yusuf Pekerja <br/>Mertoyudan, Magelang"
+                    description="Gereja Bunda Maria Penolong Abadi <br/>Deyangan, Mertoyudan, Magelang"
                   />
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__bounceInRight">
