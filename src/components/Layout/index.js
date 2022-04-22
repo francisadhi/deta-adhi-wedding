@@ -22,13 +22,13 @@ function MainLayout({ children }) {
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Deta & Adhi" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://thekusuma.com" />
+        <meta property="og:url" content="http://localhost:8000" />
         <meta property="og:site_name" content="The Wedding of Deta & Adhi" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta name="twitter:title" content="The Wedding of Deta & Adhi" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
-        {/* <meta name="twitter:url" content="https://thekusuma.com" /> */}
+        {/* <meta name="twitter:url" content="http://localhost:8000" /> */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@idAdhikusuma" />
 

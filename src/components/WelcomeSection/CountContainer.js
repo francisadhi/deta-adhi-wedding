@@ -12,7 +12,7 @@ function CountContainer() {
     return (
       <>
         <div className="row">
-          <div className="col-md-12" style={{ fontSize: '20px' }}>
+          <div className="col-md-12" style={{ fontSize: '10px' }}>
             {`ACARA ${finalText} BERLANGSUNG!`}
           </div>
         </div>
@@ -21,7 +21,7 @@ function CountContainer() {
     );
 
   return (
-    <div className="col-md-12" css={styMargin('0 0 16px 0')}>
+    <div className="col-md-12" css={styMargin('0 0 5px 0')}>
       <CountItem text="Days" number={days} />
       <CountItem text="Hours" number={hours} />
       <CountItem text="Minutes" number={minutes} />

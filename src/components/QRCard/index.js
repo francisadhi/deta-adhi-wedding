@@ -7,7 +7,7 @@ function QRCard({ name, code, desc }) {
     <div className="col-md-2 col-sm-2">
       <div className="qr">
         <div className="qr__wrapper">
-          <QRCode value={code} size={150} />
+          <QRCode value={code} level={'M'} />
         </div>
         {name ? (
           <>

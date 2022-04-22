@@ -228,8 +228,8 @@ export const styWrapper = css`
 
 export const styWrapperCount = css`
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: #f6c578cc;
   margin: 8px;
   border-radius: 50%;
@@ -238,19 +238,19 @@ export const styWrapperCount = css`
   color: #fff;
 
   h3 {
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   @media screen and (max-width: 500px) {
-    width: 75px;
-    height: 75px;
+    width: 45px;
+    height: 45px;
     margin: 4px;
-    font-size: 12px;
+    font-size: 8px;
 
     h3 {
-      font-size: 24px;
+      font-size: 14px;
     }
   }
 

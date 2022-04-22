@@ -1,8 +1,8 @@
 [
   {
-    "code": "DXI-0001",
-    "name": "Suharyo",
-    "desc": "Jalan Singa, Semarang",
+    "code": "DXA-0001",
+    "name": "Adhi",
+    "desc": "Jalan Letnan Tukiyat, Kota Mungkid",
     "shift": 1,
     "isAttended": "",
     "updatedBy": "",
@@ -11,9 +11,9 @@
     "exchangedBy": ""
   },
   {
-    "code": "DXI-0002",
-    "name": "Heru Setyabudi",
-    "desc": "Jalan Singa, Semarang",
+    "code": "DXA-0002",
+    "name": "Deta",
+    "desc": "Jalan Letnan Tukiyat, Kota Mungkid",
     "shift": 1,
     "isAttended": "",
     "updatedBy": "",

@@ -11,7 +11,7 @@ export const newCss = css`
     margin: 0;
   }
   body {
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+    @import url('https://fonts.googleapis.com/css?family=Montez:300,400,500,700');
     font-family: 'Ubuntu', sans-serif;
     background-color: #3f32e5;
     height: 100%;
@@ -26,6 +26,18 @@ export const newCss = css`
 
   .ticket-system {
     max-width: 385px;
+    .ticket {
+      display: flex;
+  
+      #qrcode {
+        justify-content: center;
+        align-content: center;
+        margin: 12px auto;
+        
+        width: 70px;
+        height: 70px;
+      }
+    }
     .top {
       display: flex;
       align-items: center;
@@ -33,11 +45,12 @@ export const newCss = css`
       .title {
         font-weight: normal;
         font-size: 2.9em;
-        text-align: left;
+        text-align: center;
         margin-left: 20px;
         margin-bottom: 10px;
         margin-top: 10px;
         color: #005555;
+        font-family: 'Montez', Arial, sans-serif;
       }
       .printer {
         margin-top: 0px;
@@ -68,8 +81,15 @@ export const newCss = css`
       animation-fill-mode: forwards;
 
 
+      .and-love {
+        font-weight: normal;
+        font-size: 2.9em;
+        text-align: center;
+        color: #F900BF;
+      }
+
       .receipt {
-        padding: 25px 30px;
+        padding: 10px 30px 10px 30px;
         text-align: left;
         min-height: 200px;
         width: 88%;
@@ -85,7 +105,7 @@ export const newCss = css`
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 30px 0;
+          margin: 35px 0;
 
           .plane-icon {
             width: 30px;
@@ -94,8 +114,9 @@ export const newCss = css`
           }
           h2 {
             font-weight: 300;
-            font-size: 2.2em;
+            font-size: 3.9em;
             margin: 0;
+            font-family: 'Montez', Arial, sans-serif;
           }
         }
 
