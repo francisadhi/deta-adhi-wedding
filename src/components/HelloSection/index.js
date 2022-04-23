@@ -87,7 +87,7 @@ function HelloSection({ isInvitation }) {
                 <p className="info">
                   Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
                   dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
+                  selalu dalam lindungan Tuhan. 
                 </p>
               </div>
             </div>
