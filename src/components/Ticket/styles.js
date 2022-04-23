@@ -90,7 +90,7 @@ export const newCss = css`
 
       .receipt {
         padding: 10px 30px 10px 30px;
-        text-align: left;
+        text-align: center;
         min-height: 200px;
         width: 88%;
         background-color: #E9EFC0;

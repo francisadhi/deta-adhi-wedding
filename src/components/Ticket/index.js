@@ -65,10 +65,6 @@ function TicketData({ guest, configData }) {
     // </div>
 
     <div css={newCss}>
-
-      <Link to={`/?type=invitation&to=${guest.name}&code=${guest.code}`}>
-        <button className="btn primary text-center">{`< Kembali ke Homepage`}</button>
-      </Link>
       <main class="ticket-system">
         <div class="top">
           <h1 class="title">The wedding of</h1>
@@ -97,37 +93,40 @@ function TicketData({ guest, configData }) {
               <div class="details">
                 <div class="item">
                   <span>Guest</span>
-                  <h3>{guest.name}</h3>
+                  <h4>{guest.fullname}</h4>
                 </div>
                 <div class="item">
                   <span>Guest No.</span>
-                  <h3>{guest.code}</h3>
+                  <h4>{guest.code}</h4>
                 </div>
                 <div class="item">
                   <span>Day</span>
-                  <h3>Saturday</h3>
+                  <h4>Saturday</h4>
                 </div>
                 <div class="item">
                   <span>Date</span>
-                  <h3>02/07/2022</h3>
+                  <h4>02/07/2022</h4>
                 </div>
                 <div class="item">
                   <span>Gate Open</span>
-                  <h3>13:00</h3>
+                  <h4>13:00</h4>
                 </div>
                 <div class="item">
                   <span>Gate Closes</span>
-                  <h3>15:00</h3>
+                  <h4>15:00</h4>
                 </div>
                 <div class="item">
                   <span>Category</span>
-                  <h3>VVIP</h3>
+                  <h4>VVIP</h4>
                 </div>
                 {/* <div class="item">
                   <span>Seat</span>
                   <h3>-</h3>
                 </div> */}
               </div>
+              <Link className="text-center" to={`/?type=invitation&to=${guest.name}&code=${guest.code}`}>
+                <button className="btn primary text-center">{`< Lihat Detail Acara`}</button>
+              </Link>
             </div>
             <div class="receipt qr-code">
               {/* <svg class="qr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.938 29.938">
