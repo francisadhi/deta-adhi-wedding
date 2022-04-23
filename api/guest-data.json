@@ -25,6 +25,18 @@
   },
   {
     "code": "DXA-0003",
+    "name": "Indra",
+    "fullname": "Andreas Indra Krisnawan",
+    "desc": "Bandung",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0004",
     "name": "Maxmilian",
     "fullname": "Maxmilian Tindipau",
     "desc": "Yogyakarta",
@@ -36,7 +48,7 @@
     "exchangedBy": ""
   },
   {
-    "code": "DXA-0004",
+    "code": "DXA-0005",
     "name": "Angga",
     "fullname": "Robertus Angga",
     "desc": "Yogyakarta",
@@ -48,22 +60,10 @@
     "exchangedBy": ""
   },
   {
-    "code": "DXA-0005",
+    "code": "DXA-0006",
     "name": "Anggit",
     "fullname": "Anggit SUhendro",
     "desc": "Jakarta",
-    "shift": 1,
-    "isAttended": "",
-    "updatedBy": "",
-    "isExchanged": "",
-    "exchangedAt": "",
-    "exchangedBy": ""
-  },
-  {
-    "code": "DXA-0006",
-    "name": "Indra",
-    "fullname": "Andreas Indra Krisnawan",
-    "desc": "Bandung",
     "shift": 1,
     "isAttended": "",
     "updatedBy": "",
