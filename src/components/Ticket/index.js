@@ -3,7 +3,9 @@ import QRCode from 'react-qr-code';
 import { object } from 'prop-types';
 import { Link } from 'gatsby';
 
-import { styWrapper, newCss } from './styles';
+import { 
+  // styWrapper, 
+  newCss } from './styles';
 
 function TicketData({ guest, configData }) {
   return (

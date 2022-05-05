@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-deta.jpg';
-import Groom from '@assets/images/p-adhi.jpg';
+import Bride from '@assets/images/groom.jpg';
+import Groom from '@assets/images/bride.jpg';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';

@@ -1092,28 +1092,28 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: 'Montez', Arial, serif;
+  font-family: 'Arizonia', Sans-serif;
   color: #f6c578cc;
   font-size: 30px;
 }
 .couple-half .groom,
 .couple-half .bride {
   float: left;
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 50%; */
+    width: 200px;
+    height: 200px;
 }
 .couple-half .groom img,
 .couple-half .bride img {
-  width: 150px;
-  height: 150px;
-  -webkit-border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom,
@@ -1123,8 +1123,8 @@ form label {
   }
   .couple-half .groom img,
   .couple-half .bride img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
   }
 }
