@@ -7,14 +7,14 @@ import Groom from '@assets/images/bride.jpg';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
 
-import { styWrapper } from './styles';
+import { styWrapperCouple } from './styles';
 
 function HelloSection({ isInvitation }) {
   const finalSubtitle = isInvitation ? 'Sabtu, 02 Juli 2022, Gereja Bunda Maria Penolong Abadi. Deyangan, Mertoyudan' : 'Sabtu, 02 Juli 2022';
 
   return (
     <Fragment>
-      <div id="fh5co-couple" css={styWrapper}>
+      <div id="fh5co-couple" css={styWrapperCouple}>
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading fadeInUp animated-fast">
@@ -52,7 +52,7 @@ function HelloSection({ isInvitation }) {
                   <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
                 </div>
                 <div className="desc-bride">
-                  <h3 className="main-font">FX Novi Adhi Nugroho, S.Kom.</h3>
+                  <h3 className="couple-font">FX Novi Adhi Nugroho, S.Kom.</h3>
                   <p className="parent-name">
                     Putra Bapak (Alm) Yohanes Mudiyanto <br />& Ibu Asiyah Maria Immaculata
                   </p>
@@ -75,7 +75,7 @@ function HelloSection({ isInvitation }) {
         </div>
       </div>
       {!isInvitation ? (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
+        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapperCouple}>
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
