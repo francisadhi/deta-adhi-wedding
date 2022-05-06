@@ -127,7 +127,7 @@ function TicketData({ guest, configData }) {
                 </div> */}
               </div>
               <Link className="text-center" to={`/?type=invitation&to=${guest.name}&code=${guest.code}`}>
-                <button className="btn primary text-center">{`< Buka Undangan`}</button>
+                <button className="btn primary text-center"><i className="icon-open-book"></i>{` Buka Undangan`}</button>
                 {/* <IconButton
                   icon="camera"
                   color={Colors.red500}

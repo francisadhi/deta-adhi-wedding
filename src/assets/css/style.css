@@ -1067,14 +1067,14 @@ form label {
   animation: pulse 1s ease infinite;
 }
 .heart i {
-  font-size: 20px;
+  font-size: 60px;
   background: #fff;
-  padding: 20px;
+  /* padding: 20px; */
   color: #f14e95;
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 @media screen and (max-width: 768px) {
   .heart {
@@ -1937,6 +1937,7 @@ form label {
 
 .main-font {
   font-family: 'Cookie', cursive !important;
+  text-shadow: 1px 1px 2px rgb(84, 84, 84);
 }
 
 .and-love {

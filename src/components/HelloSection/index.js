@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/groom.jpg';
-import Groom from '@assets/images/bride.jpg';
+import Bride from '@assets/images/bride3.png';
+import Groom from '@assets/images/groom3.png';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
@@ -19,11 +19,13 @@ function HelloSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading fadeInUp animated-fast">
               <AnimationOnScroll animateIn="animate__bounceIn">
-                <h2 className="main-font">Salam Sejahtera</h2>
+                <h2 className="main-font">Berkah Dalem</h2>
               </AnimationOnScroll>
-              <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
+              <h4>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
+<br></br>– Matius 19:6 –</h4>
+              {/* <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
                 <h3 className="sub-title hs">{finalSubtitle}</h3>
-              </AnimationOnScroll>
+              </AnimationOnScroll> */}
             </div>
           </div>
           <div className="couple-wrap">

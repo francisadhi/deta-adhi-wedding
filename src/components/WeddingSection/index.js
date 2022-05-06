@@ -5,6 +5,7 @@ import WeddingInfoBox from './WeddingInfoBox';
 import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Fade from 'react-reveal//Fade';
 
 function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
@@ -36,22 +37,26 @@ function WeddingSection({ isInvitation }) {
             {!isInvitation && renderGuestInfo()}
             {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
-                <AnimationOnScroll animateIn="animate__bounceInLeft">
+                <Fade left>
+                  {/* <AnimationOnScroll animateIn="animate__bounceInLeft"> */}
                   <WeddingInfoBox
                     title="Sakramen Pernikahan"
                     time="Akan dilaksanakan pada pukul 10.00 WIB "
                     date="Sabtu, 02 Juli 2022"
                     description="Gereja Bunda Maria Penolong Abadi <br/>Deyangan, Mertoyudan, Magelang"
                   />
-                </AnimationOnScroll>
-                <AnimationOnScroll animateIn="animate__bounceInRight">
+                  {/* </AnimationOnScroll> */}
+                </Fade>
+                <Fade right>
+                  {/* <AnimationOnScroll animateIn="animate__bounceInRight"> */}
                   <WeddingInfoBox
                     title="Resepsi Pernikahan"
                     time="Akan dilaksanakan pada pukul 14.00 WIB "
                     date="Sabtu, 02 Juli 2022"
                     description="Balkondes Duta Menoreh <br/>Desa Tanjungsari, Borobudur"
                   />
-                </AnimationOnScroll>
+                  {/* </AnimationOnScroll> */}
+                </Fade>
               </div>
             )}
           </div>
