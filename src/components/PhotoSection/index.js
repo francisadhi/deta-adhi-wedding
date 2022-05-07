@@ -7,10 +7,10 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Pre-Wedding Dinda & Indra"
+        title="Pre-Wedding Deta & Adhi"
         width="100%"
         height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
+        src="https://www.youtube.com/embed/vKnkmU_W6_c"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -26,10 +26,8 @@ function PhotoSection() {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">#DetaAdhi</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
-                (Ar-Rum 30:21).
+                "Demikianlah tinggal ketiga hal ini, yaitu iman, pengharapan dan kasih, dan yang paling besar di antaranya ialah kasih." <br />
+                1 Korintus 13:13.
               </p>
             </div>
           </div>

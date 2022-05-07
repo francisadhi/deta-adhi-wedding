@@ -3,6 +3,7 @@ import { object, string, bool, func } from 'prop-types';
 // import { Link } from 'gatsby';
 import Wave from "react-wavify";
 import styled from '@emotion/styled';
+import Background from '@assets/images/adhi-deta1.jpg';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
