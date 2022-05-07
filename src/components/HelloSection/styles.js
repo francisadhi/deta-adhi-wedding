@@ -8,8 +8,9 @@ export const styWrapperCouple = css`
   margin-top: 0px;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
+  flex: 100%;
   justify-content: center;
   align-items: center;
 

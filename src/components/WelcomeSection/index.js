@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 // import { Link } from 'gatsby';
+import Wave from "react-wavify";
+import styled from '@emotion/styled';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
@@ -9,6 +11,17 @@ import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
 import "animate.css/animate.min.css";
 
 const DELAY_TIME = 1500;
+
+const WaveContainer = styled.div`
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  height: ${(props) => props.level + 'vh'};
+  display: flex;
+  z-index: 1;
+  transform: rotate(180deg);
+`;
 
 function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
   const [loading, setLoading] = useState(false);
@@ -92,6 +105,45 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <ScrollToDown loading={loading} onClick={handleShowDetail} />
           </div>
         </div>
+        <WaveContainer level={110}>
+          <Wave
+            fill="#000000"
+            paused={false}
+            opacity="0.3"
+            options={{
+              height: 45,
+              amplitude: 30,
+              speed: 0.1,
+              points: 4,
+            }}
+          />
+        </WaveContainer>
+        <WaveContainer level={110}>
+          <Wave
+            fill="#DDDDDD"
+            paused={false}
+            opacity="0.2"
+            options={{
+              height: 20,
+              amplitude: 10,
+              speed: 0.2,
+              points: 3,
+            }}
+          />
+        </WaveContainer>
+        <WaveContainer level={110}>
+          <Wave
+            fill="#301B3F"
+            opacity="0.20"
+            paused={false}
+            options={{
+              height: 75,
+              amplitude: 20,
+              speed: 0.3,
+              points: 2,
+            }}
+          />
+        </WaveContainer>
       </header>
     </div>
   );

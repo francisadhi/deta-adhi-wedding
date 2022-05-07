@@ -14,7 +14,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "10.0.22",
+    "@emotion/styled": "10.0.23",
     "@loadable/component": "^5.12.0",
     "add": "^2.0.6",
     "animate.css": "^4.1.1",
@@ -30,7 +31,8 @@
     "react-image-gallery": "^1.0.7",
     "react-qr-code": "^1.0.2",
     "react-reveal": "^1.2.2",
-    "react-wavify": "^1.5.7"
+    "react-wavify": "^1.5.7",
+    "wavify": "1.0.0"
   },
   "devDependencies": {
     "eslint-config-jquery": "^3.0.0",
