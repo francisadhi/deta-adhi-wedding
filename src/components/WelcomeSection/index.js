@@ -121,6 +121,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         </WaveContainer>
         <WaveContainer level={110}>
           <Wave
+          // 
             fill="#DDDDDD"
             paused={false}
             opacity="0.2"

@@ -1068,7 +1068,7 @@ form label {
 }
 .heart i {
   font-size: 60px;
-  background: #fff;
+  /* background: #fff; */
   /* padding: 20px; */
   color: #f14e95;
   /* -webkit-border-radius: 50%;
