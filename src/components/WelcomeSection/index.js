@@ -81,6 +81,47 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         data-stellar-background-ratio="0.5"
       >
         <div className="overlay"></div>
+
+        <WaveContainer level={110}>
+          <Wave
+            fill="#000000"
+            paused={false}
+            opacity="0.25"
+            options={{
+              height: 45,
+              amplitude: 30,
+              speed: 0.1,
+              points: 4,
+            }}
+          />
+        </WaveContainer>
+        <WaveContainer level={110}>
+          <Wave
+            // 
+            fill="#DDDDDD"
+            paused={false}
+            opacity="0.22"
+            options={{
+              height: 20,
+              amplitude: 10,
+              speed: 0.2,
+              points: 3,
+            }}
+          />
+        </WaveContainer>
+        <WaveContainer level={110}>
+          <Wave
+            fill="#301B3F"
+            opacity="0.20"
+            paused={false}
+            options={{
+              height: 75,
+              amplitude: 20,
+              speed: 0.3,
+              points: 2,
+            }}
+          />
+        </WaveContainer>
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
@@ -106,46 +147,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <ScrollToDown loading={loading} onClick={handleShowDetail} />
           </div>
         </div>
-        <WaveContainer level={110}>
-          <Wave
-            fill="#000000"
-            paused={false}
-            opacity="0.3"
-            options={{
-              height: 45,
-              amplitude: 30,
-              speed: 0.1,
-              points: 4,
-            }}
-          />
-        </WaveContainer>
-        <WaveContainer level={110}>
-          <Wave
-          // 
-            fill="#DDDDDD"
-            paused={false}
-            opacity="0.2"
-            options={{
-              height: 20,
-              amplitude: 10,
-              speed: 0.2,
-              points: 3,
-            }}
-          />
-        </WaveContainer>
-        <WaveContainer level={110}>
-          <Wave
-            fill="#301B3F"
-            opacity="0.20"
-            paused={false}
-            options={{
-              height: 75,
-              amplitude: 20,
-              speed: 0.3,
-              points: 2,
-            }}
-          />
-        </WaveContainer>
       </header>
     </div>
   );
