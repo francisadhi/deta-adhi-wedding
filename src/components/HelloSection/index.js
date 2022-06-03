@@ -22,7 +22,7 @@ function HelloSection({ isInvitation }) {
                 <h2 className="main-font">Berkah Dalem</h2>
               </AnimationOnScroll>
               <h4>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
-<br></br>– Matius 19:6 –</h4>
+                <br></br>– Matius 19:6 –</h4>
               {/* <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
                 <h3 className="sub-title hs">{finalSubtitle}</h3>
               </AnimationOnScroll> */}
@@ -35,7 +35,7 @@ function HelloSection({ isInvitation }) {
                   <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
                 </div>
                 <div className="desc-groom">
-                  <h3 className="main-font">Bernadeta Debi Apriliana, S.K.M</h3>
+                  <h1 className="couple-font">Bernadeta Debi Apriliana, S.K.M</h1>
                   <p className="parent-name parent-name__top">
                     Putri Bapak Yulius Bambang Sriyanto <br />& Ibu Leocardia Endang Prihanti
                   </p>
@@ -54,7 +54,7 @@ function HelloSection({ isInvitation }) {
                   <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
                 </div>
                 <div className="desc-bride">
-                  <h3 className="couple-font">FX Novi Adhi Nugroho, S.Kom.</h3>
+                  <h1 className="couple-font">FX Novi Adhi Nugroho, S.Kom.</h1>
                   <p className="parent-name">
                     Putra Bapak (Alm) Yohanes Mudiyanto <br />& Ibu Asiyah Maria Immaculata
                   </p>
@@ -89,7 +89,7 @@ function HelloSection({ isInvitation }) {
                 <p className="info">
                   Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
                   dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Tuhan. 
+                  selalu dalam lindungan Tuhan.
                 </p>
               </div>
             </div>

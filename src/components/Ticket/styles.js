@@ -12,6 +12,7 @@ export const newCss = css`
   }
   body {
     @import url('https://fonts.googleapis.com/css?family=Montez:300,400,500,700');
+    @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script:300,400,500,700');
     font-family: 'Ubuntu', sans-serif;
     background-color: #3f32e5;
     height: 100%;
@@ -50,7 +51,7 @@ export const newCss = css`
         margin-bottom: 10px;
         margin-top: 10px;
         color: #005555;
-        font-family: 'Montez', Arial, sans-serif;
+        font-family: 'Dancing Script', Arial, sans-serif;
       }
       .printer {
         margin-top: 0px;

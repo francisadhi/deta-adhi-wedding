@@ -28,7 +28,7 @@ export const styWrapperCouple = css`
 
   .couple-font{    
     font-family: 'Arizonia', Sans-serif!important;
-    font-size: 22px;
+    font-size: 26px;
     color: #9F6607;
   }
 
