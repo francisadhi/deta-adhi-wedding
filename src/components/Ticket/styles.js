@@ -56,7 +56,7 @@ export const newCss = css`
         margin-top: 0px;
         width: 90%;
         height: 20px;
-        border: 5px solid #E9D5DA;
+        border: 5px solid #354259;
         border-radius: 10px;
         box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2);
       }
@@ -93,7 +93,7 @@ export const newCss = css`
         text-align: center;
         min-height: 200px;
         width: 88%;
-        background-color: #E9EFC0;
+        background-color: #FAF0D7;
         border-radius: 10px 10px 20px 20px;
         box-shadow: 1px 3px 8px 3px rgba(0, 0, 0, 0.2);
 
