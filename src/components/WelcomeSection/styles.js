@@ -18,15 +18,15 @@ export const styHero = css`
   .wave {
     background: url(${BackgroundWave}) repeat-x;
     position: absolute;
-    top: -118px;
+    top: -88px;
     width: 6400px;
-    height: 140px;
+    height: 100px;
     animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
     transform: translate3d(0, 0, 0);
   }
   
   .wave:nth-of-type(2) {
-    top: -95px;
+    top: -70px;
     animation: wave 4s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
     opacity: 1;
   }
