@@ -82,7 +82,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
       >
         <div className="overlay"></div>
 
-        <WaveContainer level={110}>
+        {/* <WaveContainer level={110}>
           <Wave
             fill="#000000"
             paused={false}
@@ -121,7 +121,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               points: 2,
             }}
           />
-        </WaveContainer>
+        </WaveContainer> */}
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
@@ -146,6 +146,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
           <div className="row">
             <ScrollToDown loading={loading} onClick={handleShowDetail} />
           </div>
+        </div>
+        <div class="ocean">
+          <div class="wave"></div>
+          <div class="wave"></div>
         </div>
       </header>
     </div>
