@@ -142,5 +142,17 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0013",
+    "name": "Teman Instagram",
+    "fullname": "Teman Instagram",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
 ]
