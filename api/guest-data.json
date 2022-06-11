@@ -154,5 +154,53 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0014",
+    "name": "Bayu",
+    "fullname": "Bayu Aji",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0015",
+    "name": "Karen",
+    "fullname": "Euodia Karen",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0016",
+    "name": "Henni",
+    "fullname": "Elisabeth Henni",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0017",
+    "name": "Henni",
+    "fullname": "",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
 ]
