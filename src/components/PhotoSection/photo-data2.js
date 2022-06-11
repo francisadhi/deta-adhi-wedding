@@ -1,25 +1,25 @@
-// import PotraitKarangPramuka1 from '@assets/images/landscape/Karang-Pramuka-1.jpg';
-import PotraitKarangPramuka2 from '@assets/images/landscape/Karang-Pramuka-2.jpg';
-// import PotraitKarangPramuka3 from '@assets/images/landscape/Karang-Pramuka-3.jpg';
-import PotraitKarangPramuka4 from '@assets/images/landscape/Karang-Pramuka-4.jpg';
-// import PotraitKarangPramuka5 from '@assets/images/landscape/Karang-Pramuka-5.jpg';
-// import PotraitKarangPramuka6 from '@assets/images/landscape/Karang-Pramuka-6.jpg';
-// import PotraitKarangPramuka7 from '@assets/images/landscape/Karang-Pramuka-7.jpg';
-// import PotraitKarangPramuka8 from '@assets/images/landscape/Karang-Pramuka-8.jpg';
-import PotraitKarangPramuka9 from '@assets/images/landscape/Karang-Pramuka-9.jpg';
-// import PotraitKarangPramuka11 from '@assets/images/landscape/Karang-Pramuka-10.jpg';
-// import PotraitKarangPramuka12 from '@assets/images/landscape/Karang-Pramuka-11.jpg';
-// import PotraitKarangPramuka13 from '@assets/images/landscape/Karang-Pramuka-13.jpg';
-import PotraitKarangPramuka14 from '@assets/images/landscape/Karang-Pramuka-14.jpg';
-import PotraitKarangPramuka15 from '@assets/images/landscape/Karang-Pramuka-15.jpg';
-// import PotraitKarangPramuka16 from '@assets/images/landscape/Karang-Pramuka-16.jpg';
-import PotraitKarangPramuka17 from '@assets/images/landscape/Karang-Pramuka-17.jpg';
-// import PotraitKarangPramuka18 from '@assets/images/landscape/Karang-Pramuka-18.jpg';
-// import PotraitKarangPramuka19 from '@assets/images/landscape/Karang-Pramuka-19.jpg';
-// import PotraitKarangPramuka20 from '@assets/images/landscape/Karang-Pramuka-20.jpg';
-// import PotraitKarangPramuka21 from '@assets/images/landscape/Karang-Pramuka-21.jpg';
-// // import PotraitKarangPramuka22 from '@assets/images/landscape/Karang-Pramuka-22.jpg';
-// // import PotraitKarangPramuka23 from '@assets/images/landscape/Karang-Pramuka-23.jpg';
+// import LandscapeKarangPramuka1 from '@assets/images/landscape/Karang-Pramuka-1.jpg';
+import LandscapeKarangPramuka2 from '@assets/images/landscape/Karang-Pramuka-2.jpg';
+// import LandscapeKarangPramuka3 from '@assets/images/landscape/Karang-Pramuka-3.jpg';
+import LandscapeKarangPramuka4 from '@assets/images/landscape/Karang-Pramuka-4.jpg';
+// import LandscapeKarangPramuka5 from '@assets/images/landscape/Karang-Pramuka-5.jpg';
+// import LandscapeKarangPramuka6 from '@assets/images/landscape/Karang-Pramuka-6.jpg';
+// import LandscapeKarangPramuka7 from '@assets/images/landscape/Karang-Pramuka-7.jpg';
+// import LandscapeKarangPramuka8 from '@assets/images/landscape/Karang-Pramuka-8.jpg';
+import LandscapeKarangPramuka9 from '@assets/images/landscape/Karang-Pramuka-9.jpg';
+// import LandscapeKarangPramuka11 from '@assets/images/landscape/Karang-Pramuka-10.jpg';
+// import LandscapeKarangPramuka12 from '@assets/images/landscape/Karang-Pramuka-11.jpg';
+// import LandscapeKarangPramuka13 from '@assets/images/landscape/Karang-Pramuka-13.jpg';
+import LandscapeKarangPramuka14 from '@assets/images/landscape/Karang-Pramuka-14.jpg';
+import LandscapeKarangPramuka15 from '@assets/images/landscape/Karang-Pramuka-15.jpg';
+// import LandscapeKarangPramuka16 from '@assets/images/landscape/Karang-Pramuka-16.jpg';
+import LandscapeKarangPramuka17 from '@assets/images/landscape/Karang-Pramuka-17.jpg';
+// import LandscapeKarangPramuka18 from '@assets/images/landscape/Karang-Pramuka-18.jpg';
+// import LandscapeKarangPramuka19 from '@assets/images/landscape/Karang-Pramuka-19.jpg';
+// import LandscapeKarangPramuka20 from '@assets/images/landscape/Karang-Pramuka-20.jpg';
+// import LandscapeKarangPramuka21 from '@assets/images/landscape/Karang-Pramuka-21.jpg';
+// // import LandscapeKarangPramuka22 from '@assets/images/landscape/Karang-Pramuka-22.jpg';
+// // import LandscapeKarangPramuka23 from '@assets/images/landscape/Karang-Pramuka-23.jpg';
 
 
 // import PotraitWorldCastle1 from '@assets/images/landscape/World-Castle-1.jpg';
@@ -53,108 +53,108 @@ import PotraitWorldCastle27 from '@assets/images/landscape/World-Castle-27.jpg';
 
 export const landscape_photos = [
   // {
-  //   original: PotraitKarangPramuka1,
-  //   thumbnail: PotraitKarangPramuka1,
+  //   original: LandscapeKarangPramuka1,
+  //   thumbnail: LandscapeKarangPramuka1,
   // },
   {
-    original: PotraitKarangPramuka2,
-    thumbnail: PotraitKarangPramuka2,
+    original: LandscapeKarangPramuka2,
+    thumbnail: LandscapeKarangPramuka2,
   },
   // {
-  //   original: PotraitKarangPramuka3,
-  //   thumbnail: PotraitKarangPramuka3,
+  //   original: LandscapeKarangPramuka3,
+  //   thumbnail: LandscapeKarangPramuka3,
   // },
   {
-    original: PotraitKarangPramuka4,
-    thumbnail: PotraitKarangPramuka4,
+    original: LandscapeKarangPramuka4,
+    thumbnail: LandscapeKarangPramuka4,
   },
   // {
-  //   original: PotraitKarangPramuka5,
-  //   thumbnail: PotraitKarangPramuka5,
+  //   original: LandscapeKarangPramuka5,
+  //   thumbnail: LandscapeKarangPramuka5,
   // },
   // {
-  //   original: PotraitKarangPramuka6,
-  //   thumbnail: PotraitKarangPramuka6,
+  //   original: LandscapeKarangPramuka6,
+  //   thumbnail: LandscapeKarangPramuka6,
   // },
   // {
-  //   original: PotraitKarangPramuka7,
-  //   thumbnail: PotraitKarangPramuka7,
+  //   original: LandscapeKarangPramuka7,
+  //   thumbnail: LandscapeKarangPramuka7,
   // },
   // {
-  //   original: PotraitKarangPramuka8,
-  //   thumbnail: PotraitKarangPramuka8,
+  //   original: LandscapeKarangPramuka8,
+  //   thumbnail: LandscapeKarangPramuka8,
   // },
   {
-    original: PotraitKarangPramuka9,
-    thumbnail: PotraitKarangPramuka9,
+    original: LandscapeKarangPramuka9,
+    thumbnail: LandscapeKarangPramuka9,
   },
   // {
-  //   original: PotraitKarangPramuka10,
-  //   thumbnail: PotraitKarangPramuka10,
+  //   original: LandscapeKarangPramuka10,
+  //   thumbnail: LandscapeKarangPramuka10,
   // },
   // {
-  //   original: PotraitKarangPramuka11,
-  //   thumbnail: PotraitKarangPramuka11,
+  //   original: LandscapeKarangPramuka11,
+  //   thumbnail: LandscapeKarangPramuka11,
   // },
   // {
-  //   original: PotraitKarangPramuka12,
-  //   thumbnail: PotraitKarangPramuka12,
+  //   original: LandscapeKarangPramuka12,
+  //   thumbnail: LandscapeKarangPramuka12,
   // },
   // {
-  //   original: PotraitKarangPramuka13,
-  //   thumbnail: PotraitKarangPramuka13,
+  //   original: LandscapeKarangPramuka13,
+  //   thumbnail: LandscapeKarangPramuka13,
   // },
   {
-    original: PotraitKarangPramuka14,
-    thumbnail: PotraitKarangPramuka14,
+    original: LandscapeKarangPramuka14,
+    thumbnail: LandscapeKarangPramuka14,
   },
   {
-    original: PotraitKarangPramuka15,
-    thumbnail: PotraitKarangPramuka15,
+    original: LandscapeKarangPramuka15,
+    thumbnail: LandscapeKarangPramuka15,
   },
   // {
-  //   original: PotraitKarangPramuka16,
-  //   thumbnail: PotraitKarangPramuka16,
+  //   original: LandscapeKarangPramuka16,
+  //   thumbnail: LandscapeKarangPramuka16,
   // },
   {
-    original: PotraitKarangPramuka17,
-    thumbnail: PotraitKarangPramuka17,
+    original: LandscapeKarangPramuka17,
+    thumbnail: LandscapeKarangPramuka17,
   },
   // {
-  //   original: PotraitKarangPramuka18,
-  //   thumbnail: PotraitKarangPramuka18,
+  //   original: LandscapeKarangPramuka18,
+  //   thumbnail: LandscapeKarangPramuka18,
   // },
   // {
-  //   original: PotraitKarangPramuka19,
-  //   thumbnail: PotraitKarangPramuka19,
+  //   original: LandscapeKarangPramuka19,
+  //   thumbnail: LandscapeKarangPramuka19,
   // },
   // {
-  //   original: PotraitKarangPramuka20,
-  //   thumbnail: PotraitKarangPramuka20,
+  //   original: LandscapeKarangPramuka20,
+  //   thumbnail: LandscapeKarangPramuka20,
   // },
   // {
-  //   original: PotraitKarangPramuka21,
-  //   thumbnail: PotraitKarangPramuka21,
+  //   original: LandscapeKarangPramuka21,
+  //   thumbnail: LandscapeKarangPramuka21,
   // },
   // {
-  //   original: PotraitKarangPramuka22,
-  //   thumbnail: PotraitKarangPramuka22,
+  //   original: LandscapeKarangPramuka22,
+  //   thumbnail: LandscapeKarangPramuka22,
   // },
   // {
-  //   original: PotraitKarangPramuka23,
-  //   thumbnail: PotraitKarangPramuka23,
+  //   original: LandscapeKarangPramuka23,
+  //   thumbnail: LandscapeKarangPramuka23,
   // },
   // {
-  //   original: PotraitKarangPramuka24,
-  //   thumbnail: PotraitKarangPramuka24,
+  //   original: LandscapeKarangPramuka24,
+  //   thumbnail: LandscapeKarangPramuka24,
   // },
   // {
-  //   original: PotraitKarangPramuka25,
-  //   thumbnail: PotraitKarangPramuka25,
+  //   original: LandscapeKarangPramuka25,
+  //   thumbnail: LandscapeKarangPramuka25,
   // },
   // {
-  //   original: PotraitKarangPramuka26,
-  //   thumbnail: PotraitKarangPramuka26,
+  //   original: LandscapeKarangPramuka26,
+  //   thumbnail: LandscapeKarangPramuka26,
   // },
 
 
