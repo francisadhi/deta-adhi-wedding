@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { potrait_photos } from './photo-data';
+// import { potrait_photos } from './photo-data';
 import { landscape_photos } from './photo-data2';
 
 function PhotoSection() {
