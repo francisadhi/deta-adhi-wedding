@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/karang-pramukaa-2.jpg';
+import Background from '@assets/images/karangpramukaa-2.jpg';
 import BackgroundWave from '@assets/images/wave.svg';
 
 
