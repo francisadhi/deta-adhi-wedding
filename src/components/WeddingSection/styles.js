@@ -1,9 +1,10 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/adhi-deta2.jpg';
+import Background from '@assets/images/Karang-Pramuka-4.jpg';
 
 export const styWrapper = css`
   background-image: url(${Background});
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   width: 100%;
   min-height: 100vh;

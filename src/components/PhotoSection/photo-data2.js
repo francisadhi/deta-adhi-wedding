@@ -22,34 +22,34 @@ import LandscapeKarangPramuka17 from '@assets/images/landscape/Karang-Pramuka-17
 // // import LandscapeKarangPramuka23 from '@assets/images/landscape/Karang-Pramuka-23.jpg';
 
 
-// import PotraitWorldCastle1 from '@assets/images/landscape/World-Castle-1.jpg';
-// import PotraitWorldCastle2 from '@assets/images/landscape/World-Castle-2.jpg';
-// import PotraitWorldCastle3 from '@assets/images/landscape/World-Castle-3.jpg';
-// import PotraitWorldCastle4 from '@assets/images/landscape/World-Castle-4.jpg';
-import PotraitWorldCastle5 from '@assets/images/landscape/World-Castle-5.jpg';
-// import PotraitWorldCastle6 from '@assets/images/landscape/World-Castle-6.jpg';
-// import PotraitWorldCastle7 from '@assets/images/landscape/World-Castle-7.jpg';
-// import PotraitWorldCastle8 from '@assets/images/landscape/World-Castle-8.jpg';
-import PotraitWorldCastle9 from '@assets/images/landscape/World-Castle-9.jpg';
-// import PotraitWorldCastle10 from '@assets/images/landscape/World-Castle-10.jpg';
-// import PotraitWorldCastle11 from '@assets/images/landscape/World-Castle-11.jpg';
-// import PotraitWorldCastle12 from '@assets/images/landscape/World-Castle-12.jpg';
-// import PotraitWorldCastle13 from '@assets/images/landscape/World-Castle-13.jpg';
-// import PotraitWorldCastle14 from '@assets/images/landscape/World-Castle-14.jpg';
-// import PotraitWorldCastle15 from '@assets/images/landscape/World-Castle-15.jpg';
-// import PotraitWorldCastle16 from '@assets/images/landscape/World-Castle-16.jpg';
-import PotraitWorldCastle17 from '@assets/images/landscape/World-Castle-17.jpg';
-// import PotraitWorldCastle18 from '@assets/images/landscape/World-Castle-18.jpg';
-import PotraitWorldCastle19 from '@assets/images/landscape/World-Castle-19.jpg';
-// import PotraitWorldCastle20 from '@assets/images/landscape/World-Castle-20.jpg';
-// import PotraitWorldCastle21 from '@assets/images/landscape/World-Castle-21.jpg';
-import PotraitWorldCastle22 from '@assets/images/landscape/World-Castle-22.jpg';
-// import PotraitWorldCastle23 from '@assets/images/landscape/World-Castle-23.jpg';
-// import PotraitWorldCastle24 from '@assets/images/landscape/World-Castle-24.jpg';
-import PotraitWorldCastle25 from '@assets/images/landscape/World-Castle-25.jpg';
-import PotraitWorldCastle26 from '@assets/images/landscape/World-Castle-26.jpg';
-import PotraitWorldCastle27 from '@assets/images/landscape/World-Castle-27.jpg';
-// import PotraitWorldCastle28 from '@assets/images/landscape/World-Castle-28.jpg';
+// import LandscapeWorldCastle1 from '@assets/images/landscape/World-Castle-1.jpg';
+// import LandscapeWorldCastle2 from '@assets/images/landscape/World-Castle-2.jpg';
+// import LandscapeWorldCastle3 from '@assets/images/landscape/World-Castle-3.jpg';
+// import LandscapeWorldCastle4 from '@assets/images/landscape/World-Castle-4.jpg';
+import LandscapeWorldCastle5 from '@assets/images/landscape/World-Castle-5.jpg';
+// import LandscapeWorldCastle6 from '@assets/images/landscape/World-Castle-6.jpg';
+// import LandscapeWorldCastle7 from '@assets/images/landscape/World-Castle-7.jpg';
+// import LandscapeWorldCastle8 from '@assets/images/landscape/World-Castle-8.jpg';
+import LandscapeWorldCastle9 from '@assets/images/landscape/World-Castle-9.jpg';
+// import LandscapeWorldCastle10 from '@assets/images/landscape/World-Castle-10.jpg';
+// import LandscapeWorldCastle11 from '@assets/images/landscape/World-Castle-11.jpg';
+// import LandscapeWorldCastle12 from '@assets/images/landscape/World-Castle-12.jpg';
+// import LandscapeWorldCastle13 from '@assets/images/landscape/World-Castle-13.jpg';
+// import LandscapeWorldCastle14 from '@assets/images/landscape/World-Castle-14.jpg';
+// import LandscapeWorldCastle15 from '@assets/images/landscape/World-Castle-15.jpg';
+// import LandscapeWorldCastle16 from '@assets/images/landscape/World-Castle-16.jpg';
+import LandscapeWorldCastle17 from '@assets/images/landscape/World-Castle-17.jpg';
+// import LandscapeWorldCastle18 from '@assets/images/landscape/World-Castle-18.jpg';
+import LandscapeWorldCastle19 from '@assets/images/landscape/World-Castle-19.jpg';
+// import LandscapeWorldCastle20 from '@assets/images/landscape/World-Castle-20.jpg';
+// import LandscapeWorldCastle21 from '@assets/images/landscape/World-Castle-21.jpg';
+import LandscapeWorldCastle22 from '@assets/images/landscape/World-Castle-22.jpg';
+// import LandscapeWorldCastle23 from '@assets/images/landscape/World-Castle-23.jpg';
+// import LandscapeWorldCastle24 from '@assets/images/landscape/World-Castle-24.jpg';
+import LandscapeWorldCastle25 from '@assets/images/landscape/World-Castle-25.jpg';
+import LandscapeWorldCastle26 from '@assets/images/landscape/World-Castle-26.jpg';
+import LandscapeWorldCastle27 from '@assets/images/landscape/World-Castle-27.jpg';
+// import LandscapeWorldCastle28 from '@assets/images/landscape/World-Castle-28.jpg';
 
 export const landscape_photos = [
   // {
@@ -160,120 +160,120 @@ export const landscape_photos = [
 
   
   // {
-  //   original: PotraitWorldCastle1,
-  //   thumbnail: PotraitWorldCastle1,
+  //   original: LandscapeWorldCastle1,
+  //   thumbnail: LandscapeWorldCastle1,
   // },
   // {
-  //   original: PotraitWorldCastle2,
-  //   thumbnail: PotraitWorldCastle2,
+  //   original: LandscapeWorldCastle2,
+  //   thumbnail: LandscapeWorldCastle2,
   // },
   // {
-  //   original: PotraitWorldCastle3,
-  //   thumbnail: PotraitWorldCastle3,
+  //   original: LandscapeWorldCastle3,
+  //   thumbnail: LandscapeWorldCastle3,
   // },
   // {
-  //   original: PotraitWorldCastle4,
-  //   thumbnail: PotraitWorldCastle4,
-  // },
-  {
-    original: PotraitWorldCastle5,
-    thumbnail: PotraitWorldCastle5,
-  },
-  // {
-  //   original: PotraitWorldCastle6,
-  //   thumbnail: PotraitWorldCastle6,
-  // },
-  // {
-  //   original: PotraitWorldCastle7,
-  //   thumbnail: PotraitWorldCastle7,
-  // },
-  // {
-  //   original: PotraitWorldCastle8,
-  //   thumbnail: PotraitWorldCastle8,
+  //   original: LandscapeWorldCastle4,
+  //   thumbnail: LandscapeWorldCastle4,
   // },
   {
-    original: PotraitWorldCastle9,
-    thumbnail: PotraitWorldCastle9,
+    original: LandscapeWorldCastle5,
+    thumbnail: LandscapeWorldCastle5,
   },
   // {
-  //   original: PotraitWorldCastle10,
-  //   thumbnail: PotraitWorldCastle10,
+  //   original: LandscapeWorldCastle6,
+  //   thumbnail: LandscapeWorldCastle6,
   // },
   // {
-  //   original: PotraitWorldCastle11,
-  //   thumbnail: PotraitWorldCastle11,
+  //   original: LandscapeWorldCastle7,
+  //   thumbnail: LandscapeWorldCastle7,
   // },
   // {
-  //   original: PotraitWorldCastle12,
-  //   thumbnail: PotraitWorldCastle12,
-  // },
-  // {
-  //   original: PotraitWorldCastle13,
-  //   thumbnail: PotraitWorldCastle13,
-  // },
-  // {
-  //   original: PotraitWorldCastle14,
-  //   thumbnail: PotraitWorldCastle14,
-  // },
-  // {
-  //   original: PotraitWorldCastle15,
-  //   thumbnail: PotraitWorldCastle15,
-  // },
-  // {
-  //   original: PotraitWorldCastle16,
-  //   thumbnail: PotraitWorldCastle16,
+  //   original: LandscapeWorldCastle8,
+  //   thumbnail: LandscapeWorldCastle8,
   // },
   {
-    original: PotraitWorldCastle17,
-    thumbnail: PotraitWorldCastle17,
+    original: LandscapeWorldCastle9,
+    thumbnail: LandscapeWorldCastle9,
   },
   // {
-  //   original: PotraitWorldCastle18,
-  //   thumbnail: PotraitWorldCastle18,
+  //   original: LandscapeWorldCastle10,
+  //   thumbnail: LandscapeWorldCastle10,
+  // },
+  // {
+  //   original: LandscapeWorldCastle11,
+  //   thumbnail: LandscapeWorldCastle11,
+  // },
+  // {
+  //   original: LandscapeWorldCastle12,
+  //   thumbnail: LandscapeWorldCastle12,
+  // },
+  // {
+  //   original: LandscapeWorldCastle13,
+  //   thumbnail: LandscapeWorldCastle13,
+  // },
+  // {
+  //   original: LandscapeWorldCastle14,
+  //   thumbnail: LandscapeWorldCastle14,
+  // },
+  // {
+  //   original: LandscapeWorldCastle15,
+  //   thumbnail: LandscapeWorldCastle15,
+  // },
+  // {
+  //   original: LandscapeWorldCastle16,
+  //   thumbnail: LandscapeWorldCastle16,
   // },
   {
-    original: PotraitWorldCastle19,
-    thumbnail: PotraitWorldCastle19,
+    original: LandscapeWorldCastle17,
+    thumbnail: LandscapeWorldCastle17,
   },
   // {
-  //   original: PotraitWorldCastle20,
-  //   thumbnail: PotraitWorldCastle20,
-  // },
-  // {
-  //   original: PotraitWorldCastle21,
-  //   thumbnail: PotraitWorldCastle21,
+  //   original: LandscapeWorldCastle18,
+  //   thumbnail: LandscapeWorldCastle18,
   // },
   {
-    original: PotraitWorldCastle22,
-    thumbnail: PotraitWorldCastle22,
+    original: LandscapeWorldCastle19,
+    thumbnail: LandscapeWorldCastle19,
   },
   // {
-  //   original: PotraitWorldCastle23,
-  //   thumbnail: PotraitWorldCastle23,
+  //   original: LandscapeWorldCastle20,
+  //   thumbnail: LandscapeWorldCastle20,
   // },
   // {
-  //   original: PotraitWorldCastle24,
-  //   thumbnail: PotraitWorldCastle24,
+  //   original: LandscapeWorldCastle21,
+  //   thumbnail: LandscapeWorldCastle21,
   // },
   {
-    original: PotraitWorldCastle25,
-    thumbnail: PotraitWorldCastle25,
-  },
-  {
-    original: PotraitWorldCastle26,
-    thumbnail: PotraitWorldCastle26,
-  },
-  {
-    original: PotraitWorldCastle27,
-    thumbnail: PotraitWorldCastle27,
+    original: LandscapeWorldCastle22,
+    thumbnail: LandscapeWorldCastle22,
   },
   // {
-  //   original: PotraitWorldCastle28,
-  //   thumbnail: PotraitWorldCastle28,
+  //   original: LandscapeWorldCastle23,
+  //   thumbnail: LandscapeWorldCastle23,
   // },
   // {
-  //   original: PotraitWorldCastle29,
-  //   thumbnail: PotraitWorldCastle29,
+  //   original: LandscapeWorldCastle24,
+  //   thumbnail: LandscapeWorldCastle24,
+  // },
+  {
+    original: LandscapeWorldCastle25,
+    thumbnail: LandscapeWorldCastle25,
+  },
+  {
+    original: LandscapeWorldCastle26,
+    thumbnail: LandscapeWorldCastle26,
+  },
+  {
+    original: LandscapeWorldCastle27,
+    thumbnail: LandscapeWorldCastle27,
+  },
+  // {
+  //   original: LandscapeWorldCastle28,
+  //   thumbnail: LandscapeWorldCastle28,
+  // },
+  // {
+  //   original: LandscapeWorldCastle29,
+  //   thumbnail: LandscapeWorldCastle29,
   // },
 
 
