@@ -21,6 +21,9 @@ import LandscapeKarangPramuka17 from '@assets/images/landscape/karangpramuka-17.
 // // import LandscapeKarangPramuka22 from '@assets/images/landscape/karangpramuka-22.jpg';
 // // import LandscapeKarangPramuka23 from '@assets/images/landscape/karangpramuka-23.jpg';
 
+import LandscapeKarangPramukaa2 from '@assets/images/landscape/karangpramukaa-2.jpg';
+import LandscapeKarangPramukaa7 from '@assets/images/landscape/karangpramukaa-7.jpg';
+
 
 // import LandscapeWorldCastle1 from '@assets/images/landscape/worldcastle-1.jpg';
 // import LandscapeWorldCastle2 from '@assets/images/landscape/worldcastle-2.jpg';
@@ -50,6 +53,8 @@ import LandscapeWorldCastle25 from '@assets/images/landscape/worldcastle-25.jpg'
 import LandscapeWorldCastle26 from '@assets/images/landscape/worldcastle-26.jpg';
 import LandscapeWorldCastle27 from '@assets/images/landscape/worldcastle-27.jpg';
 // import LandscapeWorldCastle28 from '@assets/images/landscape/worldcastle-28.jpg';
+
+import LandscapeWorldCastlee3 from '@assets/images/landscape/worldcastlee-3.jpg';
 
 export const landscape_photos = [
   // {
@@ -156,6 +161,14 @@ export const landscape_photos = [
   //   original: LandscapeKarangPramuka26,
   //   thumbnail: LandscapeKarangPramuka26,
   // },
+  {
+    original: LandscapeKarangPramukaa2,
+    thumbnail: LandscapeKarangPramukaa2,
+  },
+  {
+    original: LandscapeKarangPramukaa7,
+    thumbnail: LandscapeKarangPramukaa7,
+  },
 
 
   
@@ -276,122 +289,9 @@ export const landscape_photos = [
   //   thumbnail: LandscapeWorldCastle29,
   // },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // {
-  //   original: Gallery8,
-  //   thumbnail: Gallery8,
-  // },
-  // {
-  //   original: Gallery2,
-  //   thumbnail: Gallery2,
-  // },
-  // {
-  //   original: Gallery3,
-  //   thumbnail: Gallery3,
-  // },
-  // {
-  //   original: Gallery4,
-  //   thumbnail: Gallery4,
-  // },
-  // {
-  //   original: Gallery5,
-  //   thumbnail: Gallery5,
-  // },
-  // {
-  //   original: Gallery6,
-  //   thumbnail: Gallery6,
-  // },
-  // {
-  //   original: Gallery7,
-  //   thumbnail: Gallery7,
-  // },
-  // {
-  //   original: Gallery8,
-  //   thumbnail: Gallery8,
-  // },
-
-
-
-
-
-
-
-
-
-
-  // // {
-  // //   original: Image6,
-  // //   thumbnail: Image6thumb,
-  // // },
-  // {
-  //   original: Image5,
-  //   thumbnail: Image5thumb,
-  // },
-  // {
-  //   original: Gallery4,
-  //   thumbnail: GalleryT4,
-  // },
-  // {
-  //   original: Gallery5,
-  //   thumbnail: GalleryT5,
-  // },
-  // {
-  //   original: Gallery6,
-  //   thumbnail: GalleryT6,
-  // },
-  // {
-  //   original: Gallery7,
-  //   thumbnail: GalleryT7,
-  // },
-  // {
-  //   original: Gallery8,
-  //   thumbnail: GalleryT8,
-  // },
-  // {
-  //   original: Gallery9,
-  //   thumbnail: GalleryT9,
-  // },
-  // {
-  //   original: Gallery10,
-  //   thumbnail: GalleryT10,
-  // },
-  // {
-  //   original: Gallery11,
-  //   thumbnail: GalleryT11,
-  // },
-  // {
-  //   original: Gallery12,
-  //   thumbnail: GalleryT12,
-  // },
-  // {
-  //   original: Gallery13,
-  //   thumbnail: GalleryT13,
-  // },
-  // {
-  //   original: Gallery14,
-  //   thumbnail: GalleryT14,
-  // },
-  // {
-  //   original: Gallery15,
-  //   thumbnail: GalleryT15,
-  // },
+  
+  {
+    original: LandscapeWorldCastlee3,
+    thumbnail: LandscapeWorldCastlee3,
+  },
 ];

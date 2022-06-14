@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
-import { styWrapper } from '../HelloSection/styles';
+import { styWrapperCouple } from '../HelloSection/styles';
 
 function FooterSection({ isInvitation }) {
   return (
     <Fragment>
       {!isInvitation && (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
+        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapperCouple}>
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
