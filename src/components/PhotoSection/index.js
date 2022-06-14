@@ -36,14 +36,14 @@ function PhotoSection() {
             <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
           </div> */}
 
-          {/* <div className="row">
+          <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <ImageGallery items={landscape_photos} showBullets={false} />;
             </div>
           </div>
           <br></br>
           <br></br>
-          <br></br> */}
+          <br></br>
 
           <div className="row">
 
