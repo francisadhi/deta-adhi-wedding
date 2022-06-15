@@ -29,7 +29,7 @@ function HelloSection({ isInvitation }) {
               <br></br>
               <br></br>
               <br></br>
-              <h4>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
+              <h4 className="info">"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
                 <br></br>– Matius 19:6 –</h4>
               {/* <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
                 <h3 className="sub-title hs">{finalSubtitle}</h3>

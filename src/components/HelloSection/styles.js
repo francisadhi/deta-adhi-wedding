@@ -72,6 +72,13 @@ export const styWrapperCouple = css`
     background-image: url(${Background2});
     background-size: cover;
     width: 100%;
+    height: 100%;
+
+    .info {
+      font-size: 12px;
+      padding: 15px;
+      margin-bottom: 45px;
+    }
 
     .sub-title {
       font-size: 38px;
