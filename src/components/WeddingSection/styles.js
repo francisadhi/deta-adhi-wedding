@@ -16,6 +16,10 @@ export const styWrapper = css`
     font-family: sans-serif;
   }
 
+  .transition-top {
+    
+  }
+
   .sub-title {
     color: #fff !important;
     font-size: 16px;

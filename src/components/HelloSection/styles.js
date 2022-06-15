@@ -1,16 +1,18 @@
 import { css } from '@emotion/core';
 import Background from '@assets/images/bg-couple.jpg';
 import Background2 from '@assets/images/bg-couple2.jpg';
-import Flower1 from '@assets/images/flower1.png';
+// import Flower1 from '@assets/images/flower1.png';
 
 export const styWrapperCouple = css`
 
   background-size: cover;
   background-image: url(${Background});
-  margin-top: 0px;
+  margin-top: 10px;
+  padding-top: 30px;
   background-position: center;
   width: 100%;
   height: 100%;
+  max-height: 100%;
   display: flex;
   flex: 100%;
   justify-content: center;
