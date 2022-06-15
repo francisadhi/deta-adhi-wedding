@@ -124,6 +124,25 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         </WaveContainer> */}
         <div className="container">
           <div className="row" css={styWrapper}>
+
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+              <div class="circle"></div>
+            </div>
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-Deta-Adhi" />
               <h4 className="sub-title">The Wedding of</h4>

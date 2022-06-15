@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/bg.jpg';
+import Background from '@assets/images/bg-couple.jpg';
 
 export const styWrapperCouple = css`
 
@@ -16,9 +16,10 @@ export const styWrapperCouple = css`
 
   .sub-title {
     color: #f6c578cc;
-    font-weight: 600;
     letter-spacing: 1px;
     line-height: 20px;
+    font-family: 'Mr Dafoe', cursive;
+    text-shadow: 1px 1px 2px #041C32;
   }
 
   p {
@@ -27,9 +28,19 @@ export const styWrapperCouple = css`
   }
 
   .couple-font{    
-    font-family: 'Arizonia', Sans-serif!important;
-    font-size: 26px;
-    color: #9F6607;
+    font-family: 'Tangerine', Sans-serif!important;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px #041C32;
+    color: #f6c578cc;
+    font-weight: bold;
+  }
+
+
+  
+  .parent-name {
+    margin-top: -16px !important;
+    color: #000;
+    
   }
 
   @media screen and (max-width: 500px) {

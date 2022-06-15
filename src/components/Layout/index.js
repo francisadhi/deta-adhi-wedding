@@ -40,6 +40,9 @@ function MainLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet"></link>
       </Helmet>
       <div id="page">{children}</div>
     </Fragment>

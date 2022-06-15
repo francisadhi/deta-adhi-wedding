@@ -21,8 +21,9 @@ function HelloSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading fadeInUp animated-fast">
               <AnimationOnScroll animateIn="animate__bounceIn">
-                <h2 className="main-font">Berkah Dalem</h2>
+                <h2 className="sub-title">Berkah Dalem</h2>
               </AnimationOnScroll>
+              <br></br>
               <h4>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
                 <br></br>– Matius 19:6 –</h4>
               {/* <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
