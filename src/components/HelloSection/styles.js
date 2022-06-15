@@ -57,6 +57,14 @@ export const styWrapperCouple = css`
   @media screen and (max-width: 400px) {
     p {
       font-size: 14px;
+      
+      .sub-title {
+        color: #f6c578cc;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-family: 'Mr Dafoe', cursive;
+        text-shadow: 1px 1px 2px #041C32;
+      }
     }
   }
   
