@@ -1,4 +1,4 @@
-import PilihanPhoto1 from '@assets/images/pilihan/karang-pramuka-3.jpg';
+import PilihanPhoto1 from '@assets/images/pilihan/Karang-pramuka-3.jpg';
 import PilihanPhoto2 from '@assets/images/pilihan/karangpramuka-4.jpg';
 import PilihanPhoto3 from '@assets/images/pilihan/Karang-Pramuka-6.jpg';
 import PilihanPhoto4 from '@assets/images/pilihan/Karang-Pramuka-11.jpg';
