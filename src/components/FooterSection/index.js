@@ -39,8 +39,8 @@ function FooterSection({ isInvitation }) {
                 </small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=snNX1Rhj-0I" target="_blank" rel="noreferrer">
-                  Maria Magdalena - Karena Aku Kau Cinta
+                  <a href="https://www.youtube.com/watch?v=G1BcXol14u8" target="_blank" rel="noreferrer">
+                  Nothing's Gonna Change My Love For You | Shania Yan Cover
                   </a>
                 </small>
                 <small className="block">

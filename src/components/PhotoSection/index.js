@@ -2,7 +2,8 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 // import { potrait_photos } from './photo-data';
-import { landscape_photos } from './photo-data2';
+// import { landscape_photos } from './photo-data2';
+import { pilihan_photos } from './photopilihan-data';
 
 function PhotoSection() {
   const renderYoutubeVideo = () => {
@@ -11,7 +12,7 @@ function PhotoSection() {
         title="Pre-Wedding Deta & Adhi"
         width="100%"
         height="360px"
-        src="https://www.youtube.com/embed/vKnkmU_W6_c"
+        src="https://www.youtube.com/embed/G1BcXol14u8"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -36,19 +37,19 @@ function PhotoSection() {
             <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
           </div> */}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <ImageGallery items={landscape_photos} showBullets={false} />;
             </div>
           </div>
           <br></br>
           <br></br>
-          <br></br>
+          <br></br> */}
 
           <div className="row">
 
             <div className="col-md-10 col-md-offset-1">
-              <ImageGallery items={landscape_photos} showBullets={false} />
+              <ImageGallery items={ pilihan_photos } showBullets={false} />
             </div>
 
             {/* <div className="col-md-10 col-md-offset-1">
