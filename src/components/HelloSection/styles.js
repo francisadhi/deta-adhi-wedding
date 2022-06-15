@@ -45,7 +45,7 @@ export const styWrapperCouple = css`
 
   @media screen and (max-width: 500px) {
     .sub-title {
-      font-size: 18px;
+      font-size: 38px;
       margin: 0 0 8px 0;
     }
 
@@ -59,6 +59,7 @@ export const styWrapperCouple = css`
       font-size: 14px;
       
       .sub-title {
+        font-size: 34px;
         color: #f6c578cc;
         letter-spacing: 1px;
         line-height: 20px;

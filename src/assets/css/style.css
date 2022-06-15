@@ -1948,12 +1948,12 @@ form label {
   border-top: 4px solid rgba(143, 152, 159, 0.17);
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .sub-title {
     font-size: 16px !important;
     margin: 0 0 8px 0 !important;
   }
-}
+} */
 
 .body-hidden {
   overflow: hidden !important;
