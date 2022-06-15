@@ -3,7 +3,7 @@ import { bool } from 'prop-types';
 
 import Bride from '@assets/images/bride3.png';
 import Groom from '@assets/images/groom3.png';
-import Flower1 from '@assets/images/flower1.png';
+// import Flower1 from '@assets/images/flower1.png';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
