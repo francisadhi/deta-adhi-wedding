@@ -1,5 +1,7 @@
 import { css } from '@emotion/core';
 import Background from '@assets/images/bg-couple.jpg';
+import Background2 from '@assets/images/bg-couple2.jpg';
+import Flower1 from '@assets/images/flower1.png';
 
 export const styWrapperCouple = css`
 
@@ -8,11 +10,25 @@ export const styWrapperCouple = css`
   margin-top: 0px;
   background-position: center;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   flex: 100%;
   justify-content: center;
   align-items: center;
+
+  .flower-motion-left {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .flower-motion-right {
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 200px;
+  }
 
   .sub-title {
     color: #f6c578cc;
@@ -20,6 +36,17 @@ export const styWrapperCouple = css`
     line-height: 20px;
     font-family: 'Mr Dafoe', cursive;
     text-shadow: 1px 1px 2px #041C32;
+  }
+
+  .child {
+    background: darkorange;
+  }
+
+  .child .child-1 {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
   }
 
   p {
@@ -34,8 +61,6 @@ export const styWrapperCouple = css`
     color: #f6c578cc;
     font-weight: bold;
   }
-
-
   
   .parent-name {
     margin-top: -16px !important;
@@ -43,10 +68,22 @@ export const styWrapperCouple = css`
     
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {    
+    background-image: url(${Background2});
+    background-size: cover;
+    width: 100%;
+
     .sub-title {
       font-size: 38px;
       margin: 0 0 8px 0;
+    }
+
+    .and-love {
+      margin-bottom: 0px;
+      font-size: 100px;
+      line-height: 1.5;
+      font-family: 'Arizonia',Sans-serif!important;
+      color: #fff;
     }
 
     p {
@@ -58,6 +95,14 @@ export const styWrapperCouple = css`
     p {
       font-size: 14px;
       
+      .and-love {
+        margin-bottom: 0px;
+        font-size: 100px;
+        line-height: 1.5;
+        font-family: 'Arizonia',Sans-serif!important;
+        color: #fff;
+      }
+
       .sub-title {
         font-size: 34px;
         color: #f6c578cc;

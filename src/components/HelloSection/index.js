@@ -3,6 +3,7 @@ import { bool } from 'prop-types';
 
 import Bride from '@assets/images/bride3.png';
 import Groom from '@assets/images/groom3.png';
+import Flower1 from '@assets/images/flower1.png';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
@@ -16,13 +17,17 @@ function HelloSection({ isInvitation }) {
     <Fragment>
       <div id="fh5co-couple" css={styWrapperCouple}>
         <div className="container">
-        <br></br>
-        <br></br>
+          {/* <div className="flower-motion-right">
+            <img src={Flower1} width="100%" height="80%" alt="groom" loading="lazy" />
+          </div> */}
+          <br></br>
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading fadeInUp animated-fast">
               <AnimationOnScroll animateIn="animate__bounceIn">
                 <h2 className="sub-title">Berkah Dalem</h2>
               </AnimationOnScroll>
+              <br></br>
+              <br></br>
               <br></br>
               <h4>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia."
                 <br></br>– Matius 19:6 –</h4>
@@ -49,7 +54,7 @@ function HelloSection({ isInvitation }) {
               <i className="icon-heart2"></i>
             </p>
             <div className="and-love">
-              <i>&</i>
+              <h1>&</h1>
             </div>
             <Fade right>
               <div className="couple-half">
@@ -76,7 +81,10 @@ function HelloSection({ isInvitation }) {
                 </p>
               </AnimationOnScroll>
             </div>
-          </div>
+          </div>          
+          {/* <div className="flower-motion-left">
+            <img src={Flower1} width="80%" height="80%" alt="groom" loading="lazy" />
+          </div> */}
         </div>
       </div>
       {!isInvitation ? (
