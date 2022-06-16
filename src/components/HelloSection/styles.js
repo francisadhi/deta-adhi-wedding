@@ -66,6 +66,7 @@ export const styWrapperCouple = css`
     text-shadow: 1px 1px 2px #041C32;
     color: #f6c578cc;
     font-weight: bold;
+    margin: 15px;
   }
   
   .parent-name {

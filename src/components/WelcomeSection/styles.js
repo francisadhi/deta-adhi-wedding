@@ -383,6 +383,7 @@ export const styWrapperCount = css`
   background: radial-gradient(circle at 20% 100%,#FFEE63,#73777B 10%,#f6c578cc 80%,#73777B 100%);
 
   h3 {
+    margin-top: 10px;
     font-size: 11px;
     color: #fff;
     padding 0 0 0 0;
