@@ -210,14 +210,15 @@ export const styWrapper = css`
     line-height: 1.5;
     font-family: 'Arizonia', Sans-serif!important;
     color: #fff;
+    text-shadow: rgb(4 28 50) 1px 1px 2px;
   }
 
   h2 {
     color: #fff;
     font-size: 22px;
     font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 30px;
+    //line-height: 1.5;
+    //margin-bottom: 30px;
   }
 
   h4 {
@@ -225,6 +226,7 @@ export const styWrapper = css`
     margin: 0;
     color: #fff;
     font-size: 30px;
+    text-shadow: rgb(4 28 50) 1px 1px 2px;
   }
 
   .getting-married {
@@ -233,8 +235,9 @@ export const styWrapper = css`
 
   .to-dearest {
     font-size: 16px;
-    color: #f1f1f1b3;
+    color: #fffcfcb3;
     margin-bottom: 8px;
+    text-shadow: rgb(4 28 50) 1px 1px 2px;
   }
 
   .to-dearest-name {
@@ -242,6 +245,7 @@ export const styWrapper = css`
     padding-bottom: 12px;
     max-width: 250px;
     margin: auto auto 30px auto;
+    text-shadow: rgb(4 28 50) 1px 1px 2px;
   }
 
   .margin__bottom {
@@ -370,14 +374,19 @@ export const styWrapperCount = css`
   background: #f6c578cc;
   margin: 8px;
   border-radius: 50%;
+  background-color: transparent;
   position: relative;
   animation: pulse 1s ease infinite;
   color: #fff;
+  background: radial-gradient(circle at 50%,at 120%,#81e8f6,#76deef 0,#055194 80%,#062745 100%);
+  background: radial-gradient(circle at 20% 100%,#FFEE63,#73777B 10%,#f6c578cc 80%,#73777B 100%);
 
   h3 {
-    font-size: 24px;
+    font-size: 11px;
     color: #fff;
-    margin: 10px 0 0 0;
+    padding 0 0 0 0;
+    margin-top: 0px;
+    text-shadow: rgb(4 28 50) 1px 1px 2px;
   }
 
   @media screen and (max-width: 500px) {
