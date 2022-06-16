@@ -7,6 +7,7 @@ import { styWrapper } from './styles';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
 import Transition1 from '@assets/images/wedding-transition.png';
+import WeddingBg from '@assets/images/wedding-bg.png';
 
 function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
@@ -25,6 +26,10 @@ function WeddingSection({ isInvitation }) {
       <div id="fh5co-event" css={styWrapper}>
         <div className="overlay section--bg-fixed" />
         <div className="container">
+
+          <div className="wedding-bg">
+            <img src={WeddingBg} width="100%" alt="groom" loading="lazy" />
+          </div>
           <AnimationOnScroll animateIn="animate__fadeInUp">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">

@@ -3,7 +3,7 @@ import { bool } from 'prop-types';
 
 import Bride from '@assets/images/bride3.png';
 import Groom from '@assets/images/groom3.png';
-// import Flower1 from '@assets/images/flower1.png';
+import WeddingBg from '@assets/images/wedding-bg.png';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
@@ -81,12 +81,10 @@ function HelloSection({ isInvitation }) {
                 </p>
               </AnimationOnScroll>
             </div>
-          </div>          
-          {/* <div className="flower-motion-left">
-            <img src={Flower1} width="80%" height="80%" alt="groom" loading="lazy" />
-          </div> */}
+          </div>
         </div>
       </div>
+
       {!isInvitation ? (
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapperCouple}>
           <div className="container">

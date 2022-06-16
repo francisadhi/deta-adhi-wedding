@@ -18,11 +18,15 @@ export const styWrapperCouple = css`
   justify-content: center;
   align-items: center;
 
-  .flower-motion-left {
-    position: relative;
+  .wedding-bg {
+    position: absolute;
     float: left;
-    width: 200px;
-    height: 200px;
+    background-color: transparent;
+    height: 345%;
+    width:100%;
+    top: 1288px;
+    bottom:0px;
+    left:0;
   }
   
   .flower-motion-right {

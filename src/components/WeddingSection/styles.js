@@ -10,6 +10,30 @@ export const styWrapper = css`
   min-height: 100vh;
   color: #fff !important;
 
+  
+  .wedding-bg {
+    position: absolute;
+    float: left;
+    background-color: transparent;
+    height: -245%;
+    width:100%;
+    top: -178px;
+    bottom:0px;
+    left:0;
+    
+    @media screen and (max-width: 400px) {
+      top: -48px;
+    }
+  }
+
+  .fh5co-heading {
+    margin-top: 135px;
+    
+    @media screen and (max-width: 400px) {
+      margin-top: 85px;
+    }
+  }
+
   .bismillah {
     color: #fff !important;
     font-size: 16px !important;
@@ -17,7 +41,7 @@ export const styWrapper = css`
   }
 
   .transition-top {
-    
+
   }
 
   .sub-title {
