@@ -378,6 +378,7 @@ export const styWrapperCount = css`
   position: relative;
   animation: pulse 1s ease infinite;
   color: #fff;
+  box-shadow: 2px 2px 2px #FCFFE7;
   background: radial-gradient(circle at 50%,at 120%,#81e8f6,#76deef 0,#055194 80%,#062745 100%);
   background: radial-gradient(circle at 20% 100%,#FFEE63,#73777B 10%,#f6c578cc 80%,#73777B 100%);
 
@@ -394,9 +395,18 @@ export const styWrapperCount = css`
     height: 45px;
     margin: 4px;
     font-size: 8px;
-
+    
     h3 {
-      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: -4px;
+      font-size: 11px;
+      text-shadow: rgb(4 28 50) 1px 1px 2px;
+    }
+
+    h2 {
+      margin-top: 12px;
+      margin-bottom: -4px;
+      font-size: 11px;
     }
   }
 
@@ -405,9 +415,15 @@ export const styWrapperCount = css`
     height: 55px;
 
     h3 {
+      margin-top: 10px;
+      margin-bottom: -4px;
+      font-size: 11px;
+    }
+
+    h2 {
       margin-top: 12px;
       margin-bottom: -4px;
-      font-size: 16px;
+      font-size: 11px;
     }
 
     span {
