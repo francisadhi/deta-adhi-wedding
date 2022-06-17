@@ -25,6 +25,57 @@ export const styWrapper = css`
       top: -48px;
     }
   }
+  
+  .wedding-bg-bottom {
+    position: absolute;
+    float: left;
+    background-color: transparent;
+    height: -245%;
+    width:100%;
+    bottom: -88px;
+    margin-left: 0px;
+    left:0;
+    
+    @media screen and (max-width: 400px) {    
+      position: absolute;
+      float: left;
+      background-color: transparent;
+      height: -245%;
+      width:100%;
+      bottom: -8px;
+      margin-left: 0px;
+      left:0;
+    }
+  }
+
+  .sub-title-bottom {
+    color: #fff !important;
+    font-size: 16px;
+    font-family: 'Work Sans',Arial,sans-serif;
+    font-weight: 400 !important;
+    margin-bottom: 260px;
+    margin-top: -100px;
+
+    
+    @media screen and (max-width: 400px) {    
+      color: #fff !important;
+      font-size: 16px;
+      font-family: 'Work Sans',Arial,sans-serif;
+      font-weight: 400 !important;
+      margin-bottom: 100px;
+      margin-top: -100px;
+    }
+
+    
+    @media screen and (max-width: 500px) {    
+      color: #fff !important;
+      font-size: 16px;
+      font-family: 'Work Sans',Arial,sans-serif;
+      font-weight: 400 !important;
+      margin-bottom: 250px;
+      margin-top: 0px;
+    }
+  }
 
   .fh5co-heading {
     margin-top: 135px;

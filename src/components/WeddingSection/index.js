@@ -8,6 +8,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal//Fade';
 import Transition1 from '@assets/images/wedding-transition.png';
 import WeddingBg from '@assets/images/wedding-bg.png';
+import WeddingBgBottom from '@assets/images/wedding-bg-bottom.png';
 
 function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
@@ -71,12 +72,15 @@ function WeddingSection({ isInvitation }) {
           <AnimationOnScroll animateIn="animate__fadeInUp">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <p className="sub-title sub-title__wedding">Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
+                <p className="sub-title sub-title-bottom">Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
                   berkenan hadir untuk memberikan doa restu kepada kami
                   Atas kehadiran dan doa restunya kami ucapkan terima kasih</p>
               </div>
             </div>
-          </AnimationOnScroll>
+          </AnimationOnScroll>          
+          <div className="wedding-bg-bottom">
+            <img src={WeddingBgBottom} width="100%" alt="groom" loading="lazy" />
+          </div>
         </div>
       </div>
     </Fragment >
