@@ -219,6 +219,7 @@ export const styWrapper = css`
     font-weight: 600;
     //line-height: 1.5;
     //margin-bottom: 30px;
+    margin: 20px 0 0px 0;
   }
 
   h4 {
@@ -400,7 +401,7 @@ export const styWrapperCount = css`
     h3 {
       margin-top: 10px;
       margin-bottom: -4px;
-      font-size: 11px;
+      font-size: 9px;
       text-shadow: rgb(4 28 50) 1px 1px 2px;
     }
 
@@ -418,7 +419,7 @@ export const styWrapperCount = css`
     h3 {
       margin-top: 10px;
       margin-bottom: -4px;
-      font-size: 11px;
+      font-size: 9px;
     }
 
     h2 {
