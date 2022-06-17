@@ -32,7 +32,7 @@ export const styWrapper = css`
     background-color: transparent;
     height: -245%;
     width:100%;
-    bottom: -88px;
+    bottom: -48px;
     margin-left: 0px;
     left:0;
     
