@@ -76,6 +76,7 @@ export const styScrollWrapper = css`
     display: flex;
     justify-content: center;
     cursor: pointer;
+    letter-spacing: 1px;
 
     span {
       position: absolute;
@@ -86,12 +87,16 @@ export const styScrollWrapper = css`
 
     .text {
       animation: ${upAndDownAnimation} 1s infinite alternate;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
 
     @media screen and (max-width: 414px) {
       .text {
         bottom: 80px;
         font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1px;
       }
     }
 
@@ -127,7 +132,7 @@ export const styScrollWrapper = css`
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
         border-radius: 100%;
         opacity: 0;
-        animation: ${radarAnimation} 3s infinite;
+        animation: ${radarAnimation} 2s infinite;
         box-sizing: border-box;
       }
 
