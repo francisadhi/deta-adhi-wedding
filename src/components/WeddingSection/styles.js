@@ -17,12 +17,16 @@ export const styWrapper = css`
     background-color: transparent;
     height: -245%;
     width:100%;
-    top: -178px;
+    top: -198px;
     bottom:0px;
     left:0;
     
     @media screen and (max-width: 400px) {
-      top: -48px;
+      top: -68px;
+    }
+    
+    @media screen and (max-width: 500px) {
+      top: -68px;
     }
   }
   
