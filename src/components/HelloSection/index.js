@@ -54,7 +54,7 @@ function HelloSection({ isInvitation }) {
               <i className="icon-heart2"></i>
             </p>
             <div className="and-love">
-              <h1>&</h1>
+              <div className="couple-font-and">&</div>
             </div>
             <Fade right>
               <div className="couple-half">

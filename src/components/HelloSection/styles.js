@@ -68,6 +68,14 @@ export const styWrapperCouple = css`
     font-weight: bold;
     margin: 15px;
   }
+
+  .couple-fonf-and {
+    text-shadow: 1px 1px 2px #041C32;
+    font-family: 'Tangerine', Sans-serif!important;
+    color: #f6c578cc;
+    margin-top: 60px;
+    font-size: 600px;
+  }
   
   .parent-name {
     margin-top: -16px !important;
@@ -92,12 +100,18 @@ export const styWrapperCouple = css`
       margin: 0 0 8px 0;
     }
 
+    .couple-wrap {
+      margin-top: -30px;
+    }
+
     .and-love {
+      margin-top: 20px;
       margin-bottom: 0px;
       font-size: 100px;
       line-height: 1.5;
       font-family: 'Arizonia',Sans-serif!important;
-      color: #fff;
+      color: #f6c578cc;
+      text-shadow: 1px 1px 2px #041C32;
     }
 
     p {
