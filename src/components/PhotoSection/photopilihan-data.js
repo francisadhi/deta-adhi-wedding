@@ -3,7 +3,7 @@ import PilihanPhoto2 from '@assets/images/pilihan/karangpramuka-4.jpg';
 import PilihanPhoto3 from '@assets/images/pilihan/Karang-Pramuka-6.jpg';
 import PilihanPhoto4 from '@assets/images/pilihan/Karang-Pramuka-11.jpg';
 import PilihanPhoto5 from '@assets/images/pilihan/Karang-Pramuka-18.jpg';
-import PilihanPhoto6 from '@assets/images/pilihan/Karang-Pramuka-20.jpg';
+// import PilihanPhoto6 from '@assets/images/pilihan/Karang-Pramuka-20.jpg';
 import PilihanPhoto7 from '@assets/images/pilihan/karangpramukaa-2.jpg';
 import PilihanPhoto8 from '@assets/images/pilihan/karangpramukaa-4.jpg';
 import PilihanPhoto9 from '@assets/images/pilihan/karangpramukaa-5.jpg';
@@ -43,10 +43,10 @@ export const pilihan_photos = [
     original: PilihanPhoto5,
     thumbnail: PilihanPhoto5,
   },
-  {
-    original: PilihanPhoto6,
-    thumbnail: PilihanPhoto6,
-  },
+  // {
+  //   original: PilihanPhoto6,
+  //   thumbnail: PilihanPhoto6,
+  // },
   {
     original: PilihanPhoto7,
     thumbnail: PilihanPhoto7,
