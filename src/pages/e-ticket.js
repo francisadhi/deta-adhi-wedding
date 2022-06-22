@@ -34,7 +34,7 @@ function ETicket({ location }) {
       }
 
       alert(`Maaf, Kode data ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
-      window.location.assign('http://localhost:8000');
+      window.location.assign('https://adhideta.herokuapp.com');
     },
     [data, nameEticket, value],
   );
