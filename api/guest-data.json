@@ -322,5 +322,77 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0028",
+    "name": "Afi",
+    "fullname": "Afi Muawanah",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0028",
+    "name": "Afi",
+    "fullname": "Afi Muawanah",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0029",
+    "name": "Ade",
+    "fullname": "Ade Putri",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0030",
+    "name": "Zia",
+    "fullname": "Zia Devi",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0031",
+    "name": "Tyas",
+    "fullname": "Tyas Iswidati",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0032",
+    "name": "Astrid",
+    "fullname": "Mei Astrid",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
 ]
