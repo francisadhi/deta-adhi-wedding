@@ -336,18 +336,6 @@
     "exchangedBy": ""
   },
   {
-    "code": "DXA-0028",
-    "name": "Afi",
-    "fullname": "Afi Muawanah",
-    "desc": "",
-    "shift": 1,
-    "isAttended": "",
-    "updatedBy": "",
-    "isExchanged": "",
-    "exchangedAt": "",
-    "exchangedBy": ""
-  },
-  {
     "code": "DXA-0029",
     "name": "Ade",
     "fullname": "Ade Putri",
@@ -387,6 +375,18 @@
     "code": "DXA-0032",
     "name": "Astrid",
     "fullname": "Mei Astrid",
+    "desc": "",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0033",
+    "name": "Fibra",
+    "fullname": "Fibra",
     "desc": "",
     "shift": 1,
     "isAttended": "",
