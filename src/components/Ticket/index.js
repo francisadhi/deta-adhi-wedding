@@ -119,13 +119,14 @@ function TicketData({ guest, configData }) {
                 </div>
                 <div class="item">
                   <span>Category</span>
-                  <h4>VVIP</h4>
+                  <h4>{guest.desc}</h4>
                 </div>
                 {/* <div class="item">
                   <span>Seat</span>
                   <h3>-</h3>
                 </div> */}
               </div>
+
               <Link className="text-center" to={`/?type=invitation&to=${guest.name}&code=${guest.code}`}>
                 <button className="btn primary text-center"><i className="icon-open-book"></i>{` Buka Undangan`}</button>
                 {/* <IconButton

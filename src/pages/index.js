@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { object } from 'prop-types';
 import getQueryValue from '@helpers/getQueryValue';
 /**
@@ -14,6 +14,7 @@ import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
+import useGuestData from '@/hooks/useGuestData';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -24,7 +25,26 @@ function Home({ location }) {
   const codeLink = getQueryValue(location, 'code') || '';
   const finalTicketLink = `code=${codeLink}&name=${guestName}`;
 
+  const [selectedGuest, setSelectedGuest] = useState({});
+
+  // const [selectedGuest, setSelectedGuest] = useState({});
+
   const [showDetailContent, setShowDetailContent] = useState(false);
+
+  const { data } = useGuestData();
+  const guest = data.find((g) => (g.code || '').toUpperCase() === codeLink);
+
+  useEffect(() => {
+
+    if (guest) {
+      if (guest.name.toUpperCase().includes(guestName.toUpperCase())) {
+        setSelectedGuest(guest);
+        return;
+      }
+    }
+  })
+
+  // console.log(guest);
 
   const handleClickDetail = () => {
     setShowDetailContent(true);
@@ -49,7 +69,7 @@ function Home({ location }) {
   return (
     <MainLayout>
       <WelcomeSection
-        guestName={guestName}
+        guestName={selectedGuest.fullname}
         isAnonymGuest={isAnonymGuest}
         isInvitation={isInvitation}
         location={location}
