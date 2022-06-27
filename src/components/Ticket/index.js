@@ -146,7 +146,7 @@ function TicketData({ guest, configData }) {
                 </div>
               </div>
               <div class="description">
-                <h2>{guest.name}</h2>
+                <h3>{guest.fullname}</h3>
                 <p>Show QR-code when requested</p>
               </div>
             </div>

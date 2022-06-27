@@ -60,7 +60,7 @@ function Home({ location }) {
         {isInvitation && <CovidSection />}
         <PhotoSection />
         {isInvitation && <LocationSection />}
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+        <ConfirmationSection guestName={firstName} guestFullName={selectedGuest.fullname} isInvitation={isInvitation} codeLink={finalTicketLink} />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

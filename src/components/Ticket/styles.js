@@ -175,9 +175,15 @@ export const newCss = css`
             margin-left: 20px;
 
             h2 {
-              margin: 0 0 5px 0;
+              margin: 5px 5px 5px 0;
               font-weight: 500;
             }
+            
+            h3 {
+              margin: 5px 5px 5px 5px;
+              font-weight: 500;
+            }
+
             p {
               margin: 0;
               font-weight: 400;

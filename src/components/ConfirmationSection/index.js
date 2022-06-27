@@ -6,7 +6,7 @@ import { styWrapper, styFlex } from './styles';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-function ConfirmationSection({ isInvitation, guestName, codeLink }) {
+function ConfirmationSection({ isInvitation, guestName, guestFullName, codeLink }) {
   if (!isInvitation) return null;
 
   return (
@@ -16,7 +16,7 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <AnimationOnScroll initiallyVisible={true} duration={5} animateIn="animate__swing">
-              <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
+              <h2 className="main-font">{` Apakah kamu hadir, ${guestFullName}?`}</h2>
             </AnimationOnScroll>
             <p>
               Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih.
