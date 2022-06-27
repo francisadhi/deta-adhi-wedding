@@ -502,5 +502,29 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0043",
+    "name": "Arso",
+    "fullname": "Keluarga Trah Arsowiharjo",
+    "desc": "Family",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "DXA-0044",
+    "name": "Wiryan",
+    "fullname": "Trah Kartowiryan",
+    "desc": "Family",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
 ]
