@@ -3,6 +3,7 @@ import React from 'react';
 import IconMask from './assets/face-mask.png';
 import IconSocialDistancing from './assets/social-distancing.png';
 import IconGuest from './assets/parents.png';
+import IconSoap from './assets/soap.png';
 import IconDoctor from './assets/doctor.png';
 import IconClock from './assets/clock.png';
 import IconQRcode from './assets/qr.png';
@@ -27,8 +28,8 @@ function CovidSection() {
             {/* <SectionBox icon={IconSocialDistancing} text="Pembatasan jarak dan pembatasan jumlah tamu." /> */}
             {/* <SectionBox icon={IconGuest} text="Satu undangan hanya untuk 2 orang tamu." /> */}
             <SectionBox
-              icon={IconDoctor}
-              text="Dipantau tim dokter dan disediakan hand sanitizer di berbagai titik. "
+              icon={IconSoap}
+              text="Disediakan hand sanitizer di berbagai titik. "
             />
             {/* <SectionBox icon={IconQRcode} text="Wajib membawa QRCode untuk meminimalisir kontak fisik melalui pena. " /> */}
             <SectionBox icon={IconClock} text="Wajib hadir sesuai sesuai waktu yang tertera di undangan." />

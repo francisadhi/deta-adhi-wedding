@@ -6,6 +6,7 @@ export const styWrapper = css`
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100%;
 
   p {
     color: rgba(255, 255, 255, 0.8) !important;
