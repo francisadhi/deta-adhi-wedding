@@ -20,6 +20,8 @@
 - Original Landing Page Template (https://freehtml5.co/)
 - Icon Assets (https://www.flaticon.com/packs/covid-protection-measures-5)
 
-🌐 https://clever-meitner-686fd2.netlify.app
+🌐 Live website
+
+(https://clever-meitner-686fd2.netlify.app)
 
 Thanks!
